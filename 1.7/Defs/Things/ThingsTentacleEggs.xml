@@ -1,0 +1,77 @@
+<Defs>
+
+	<ThingDef ParentName="EggFertBase">
+		<defName>AmorQueenEgg</defName>
+		<label>Amor Queen Egg</label>
+		<description>A huge egg produced in the womb of an Amor Matron Host. Hatches into an Amor Queen, a core component of a tentacle colony. Protect it!.</description>
+		<possessionCount>1</possessionCount>
+		<graphicData>
+			<texPath>Things/Items/HugeEgg</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>50.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="AmorTentaculum.CompProperties_FactionHatcher">
+				<hatcherDaystoHatch>0.5</hatcherDaystoHatch> <!-- TODO: Back to normal values. -->
+				<hatcherPawn>TentacleQueen</hatcherPawn>
+			</li>
+		</comps>
+	</ThingDef>
+		
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>AmorInternumEgg</defName>
+		<label>Amor Internum Egg</label>
+		<labelNoun>Amor Internum egg</labelNoun>
+		<description>An Amor Internum tentacle egg, growing inside the Tentacle.</description>
+		<parentDefs>
+			<li>TentacleQueen</li>
+		</parentDefs>
+		<childrenDefs>
+			<li>TInternal</li>
+		</childrenDefs>
+		<UnFertEggDef>AmorInternumEggUnfert</UnFertEggDef>
+		<FertEggDef>AmorInternumEggFert</FertEggDef>
+	</rjw.HediffDef_InsectEgg>
+
+	<ThingDef ParentName="EggImplantFertBase">
+		<defName>AmorInternumEggFert</defName>
+		<label>Amor Internum Egg (fert.)</label>
+		<description>A fertilized Amor Internum tentacle egg.</description>
+		<graphicData>
+			<color>(203,20,227)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>10.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>0.5</hatcherDaystoHatch>
+				<hatcherPawn>TInternal</hatcherPawn>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(203,20,227)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="EggImplantUnfertBase">
+		<defName>AmorInternumEggUnfert</defName>
+		<label>Amor Internum Egg (unfert.)</label>
+		<description>An unfertilized Amor Internum tentacle egg.</description>
+		<graphicData>
+			<color>(203,125,227)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(203,125,227)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+
+</Defs>

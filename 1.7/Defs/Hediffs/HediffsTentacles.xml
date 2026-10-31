@@ -75,6 +75,15 @@
     </stages>
   </HediffDef>
 
+	<HediffDef>
+		<defName>ReadyToEvolve</defName>
+		<label>ready to evolve</label>
+		<labelNoun>ready</labelNoun>
+		<description>This Amor Larva is ready to evolve. Perform an appropriate operation on it to trigger the evolution.</description>
+		<defaultLabelColor>(240,189,234)</defaultLabelColor>
+		<stages />
+	</HediffDef>
+	
 	<!-- An hediff that can be applied to a tentacle (usually an Amor Internum) that will make its death silent (no letters) and not generate a corpse. -->
 	<HediffDef>
 		<defName>TentacleSacrifice</defName>

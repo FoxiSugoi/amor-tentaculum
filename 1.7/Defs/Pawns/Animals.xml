@@ -692,7 +692,7 @@
 	</li>
 </comps>
     <race>
-      <body>MatronB</body>
+      <body>QueenBody</body>
       <predator>true</predator>
       <maxPreyBodySize>2</maxPreyBodySize>
       <baseBodySize>3.25</baseBodySize>
