@@ -1,15 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	
 	<rjw.HediffDef_SexPart Name="RJW_PrivatePartTent" Abstract="True">
-		<defaultBodyPartList>
-			<!--
-			<li>Head</li>
-			<li>Genitals</li>
-			<li>Chest</li>
-			<li>Anus</li>
-			-->
-		</defaultBodyPartList>
-		<!-- <everVisible>true</everVisible> -->
+		<defaultBodyPartList />
 		<isBad>false</isBad>
 		<keepOnBodyPartRestoration>true</keepOnBodyPartRestoration>
 		<countsAsAddedPartOrImplant>false</countsAsAddedPartOrImplant>
@@ -20,7 +12,6 @@
 		<allowMothballIfLowPriorityWorldPawn>true</allowMothballIfLowPriorityWorldPawn>
 	</rjw.HediffDef_SexPart>
 
-	<!-- natural parts (purist love) -->
 	<rjw.HediffDef_SexPart ParentName="RJW_PrivatePartTent" Name="NaturalPrivatePartTent" Abstract="True">
 		<hediffClass>rjw.Hediff_NaturalSexPart</hediffClass>
 		<defaultLabelColor>(0.5, 0.8, 0.5)</defaultLabelColor>
@@ -31,17 +22,26 @@
 			<solid>false</solid>
 			<partEfficiency>1.0</partEfficiency>
 		</addedPartProps>
-		<!-- Not currently used by base game-->
 		<organicAddedBodypart>true</organicAddedBodypart>
 	</rjw.HediffDef_SexPart>
 
-	<!-- Humanlikes should generally spawn with severity between 0 and 1. The higher sizes are for
-	growth or ultra endowed races. -->
 	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartTent" Name="NaturalPrivatePartTentPenis" Abstract="True">
 		<fluid>Cum</fluid>
 		<produceFluidOnOrgasm>true</produceFluidOnOrgasm>
 		<defaultBodyPart>Genitals</defaultBodyPart>
 		<sizeProfile>DefaultPenisSizes</sizeProfile>
+		<descriptionHyperlinks>
+			<ThingDef>OvipositorM</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>OvipositorF</spawnThingOnRemoved>
+		<genitalFamily>Penis</genitalFamily>
+		<genitalTags>
+			<li>CanPenetrate</li>
+			<li>CanFertilize</li>
+		</genitalTags>
+		<partTags>
+			<li>Rigid</li>
+		</partTags>
 		<stages>
 			<li>
 				<label>Micro</label>
@@ -70,14 +70,11 @@
 				<minSeverity>0.80</minSeverity>
 				<capMods>
 					<li>
-						<!-- A few inches extra isn't really going to make a difference, but it's funny so... -->
 						<capacity>Moving</capacity>
 						<offset>-0.05</offset>
 					</li>
 				</capMods>
 			</li>
-			<!-- Humanlikes should generally spawn with severity between 0 and 1. The higher sizes are for
-			growth or ultra endowed races. -->
 			<li>
 				<label>Towering</label>
 				<minSeverity>1.01</minSeverity>
@@ -89,11 +86,6 @@
 				</capMods>
 			</li>
 		</stages>
-		<genitalFamily>Penis</genitalFamily>
-		<genitalTags>
-			<li>CanPenetrate</li>
-			<li>CanFertilize</li>
-		</genitalTags>
 	</rjw.HediffDef_SexPart>
 
 	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartTent" Name="NaturalPrivatePartTentVagina" Abstract="True">
@@ -102,6 +94,24 @@
 		<fluidMultiplier>0.5</fluidMultiplier>
 		<defaultBodyPart>Genitals</defaultBodyPart>
 		<sizeProfile>DefaultVaginaSizes</sizeProfile>
+		<descriptionHyperlinks>
+			<ThingDef>OvipositorF</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>OvipositorF</spawnThingOnRemoved>
+		<genitalFamily>FemaleOvipositor</genitalFamily>
+		<genitalTags>
+			<li>CanPenetrate</li>
+			<li>CanBePenetrated</li>
+			<li>CanBeFertilized</li>
+			<li>CanEgg</li>
+		</genitalTags>
+		<partTags>
+			<li>Tapered</li>
+			<li>Internal</li>
+			<li>Prehensile</li>
+			<li>Rigid</li>
+		</partTags>
+
 		<stages>
 			<li>
 				<label>Micro</label>
@@ -130,7 +140,7 @@
 				<minSeverity>1.01</minSeverity>
 			</li>
 			<li>
-				<label>Gapeing</label>
+				<label>Gaping</label>
 				<minSeverity>1.5</minSeverity>
 				<statOffsets>
           			<TStorage>0.1</TStorage>
@@ -144,20 +154,22 @@
         		</statOffsets>
 			</li>
 		</stages>
-		<genitalFamily>Vagina</genitalFamily>
-		<genitalTags>
-			<li>CanBePenetrated</li>
-			<li>CanBeFertilized</li>
-		</genitalTags>
 	</rjw.HediffDef_SexPart>
 
 	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartTent" Name="NaturalPrivatePartTentBreast" Abstract="True">
 		<fluid>Milk</fluid>
 		<defaultBodyPart>Chest</defaultBodyPart>
 		<sizeProfile>DefaultBreastSizes</sizeProfile>
+		<descriptionHyperlinks>
+			<ThingDef>Breasts</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>Breasts</spawnThingOnRemoved>
+		<genitalFamily>Breasts</genitalFamily>
+		<genitalTags>
+			<li>CanLactate</li>
+		</genitalTags>
 		<stages>
 			<li>
-				<!-- Male breast stage-->
 				<label>Nipples</label>
 				<minSeverity>0.01</minSeverity>
 			</li>
@@ -221,8 +233,6 @@
 					</li>
 				</capMods>
 			</li>
-			<!-- Humanlikes should generally spawn with severity between 0 and 1. The higher sizes are for
-			growth or ultra endowed races. -->
 			<li>
 				<label>Massive</label>
 				<minSeverity>1.2</minSeverity>
@@ -254,7 +264,6 @@
 			<li>
 				<label>Colossal</label>
 				<minSeverity>1.6</minSeverity>
-				<!-- Norma Stitz is obviously not crippled, but she's not winning any races either. -->
 				<capMods>
 					<li>
 						<capacity>Moving</capacity>
@@ -295,15 +304,23 @@
 				</capMods>
 			</li>
 		</stages>
-		<genitalFamily>Breasts</genitalFamily>
-		<genitalTags>
-			<li>CanLactate</li>
-		</genitalTags>
 	</rjw.HediffDef_SexPart>
 
 	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartTent" Name="NaturalPrivatePartTentAnus" Abstract="True">
 		<defaultBodyPart>Anus</defaultBodyPart>
 		<sizeProfile>DefaultAnusSizes</sizeProfile>
+		<descriptionHyperlinks>
+			<ThingDef>InsectAnus</ThingDef>
+		</descriptionHyperlinks>
+		<spawnThingOnRemoved>InsectAnus</spawnThingOnRemoved>
+		<genitalFamily>Anus</genitalFamily>
+		<genitalTags>
+			<li>CanBePenetrated</li>
+		</genitalTags>
+		<partTags>
+			<li>Internal</li>
+			<li>Rigid</li>
+		</partTags>
 		<stages>
 			<li>
 				<label>Micro</label>
@@ -338,7 +355,7 @@
         		</statOffsets>
 			</li>
 			<li>
-				<label>Gapeing</label>
+				<label>Gaping</label>
 				<minSeverity>1.5</minSeverity>
 				<statOffsets>
           			<TStorage>0.1</TStorage>
@@ -352,50 +369,69 @@
         		</statOffsets>
 			</li>
 		</stages>
-		<genitalFamily>Anus</genitalFamily>
-		<genitalTags>
-			<li>CanBePenetrated</li>
-		</genitalTags>
 	</rjw.HediffDef_SexPart>
 
-	<!-- Regular privates -->
-	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartTentPenis">
-		<defName>TPenis</defName>
-		<label>tentacle inhabited penis</label>
-		<labelNoun>tentacle inhabited penis</labelNoun>
-		<description>A penis infested with Amor tentacles.</description>
-		<descriptionHyperlinks><ThingDef>Penis</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>Penis</spawnThingOnRemoved>
-	</rjw.HediffDef_SexPart>
-	
 	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartTentVagina">
-		<defName>TVagina</defName>
-		<label>tentacle inhabited vagina</label>
-		<labelNoun>a vagina</labelNoun>
-		<description>A vagina containing Amor tentacles.</description>
-		<descriptionHyperlinks><ThingDef>Vagina</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>Vagina</spawnThingOnRemoved>
-		
+		<defName>TentacleVaginaQueen</defName>
+		<label>Tentacle vagina</label>
+		<description>A tentacle-infested vagina. This one produces Amor Internum eggs.</description>
+		<comps>
+			<li Class="rjw.HediffCompProperties_Ovipositor">
+				<eggCount>2~4</eggCount>
+				<!-- How many eggs to produce at once. This is a FloatRange, so you can also have e.g. 2~5 -->
+				<!-- Time to produce new eggs -->
+				<eggIntervalTicks>120000~200000</eggIntervalTicks>
+			</li>
+		</comps>
 	</rjw.HediffDef_SexPart>
 
-	<!-- Natural anuses -->
+	<rjw.RacePartDef>
+		<defName>TentacleVaginaQueen</defName>
+		<hediffName>TentacleVaginaQueen</hediffName>
+	</rjw.RacePartDef>
+
+	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartTentVagina">
+		<defName>TentacleVagina</defName>
+		<label>Tentacle vagina</label>
+		<description>A tentacle-infested vagina.</description>
+	</rjw.HediffDef_SexPart>
+
+	<rjw.RacePartDef>
+		<defName>TentacleVagina</defName>
+		<hediffName>TentacleVagina</hediffName>
+	</rjw.RacePartDef>
+
 	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartTentAnus">
-		<defName>TAnus</defName>
-		<label>tentacle inhabited anus</label>
-		<labelNoun>an anus</labelNoun>
-		<description>A anus containing Amor tentacles.</description>
-		<descriptionHyperlinks><ThingDef>Anus</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>Anus</spawnThingOnRemoved>
+		<defName>TentacleAnus</defName>
+		<label>Tentacle anus</label>
+		<description>A tentacle-infested anus.</description>
 	</rjw.HediffDef_SexPart>
-	
-	<!-- Natural Breasts -->
+
+	<rjw.RacePartDef>
+		<defName>TentacleAnus</defName>
+		<hediffName>TentacleAnus</hediffName>
+	</rjw.RacePartDef>
+
+	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartTentPenis">
+		<defName>TentaclePenis</defName>
+		<label>Tentacle penis</label>
+		<description>A tentacle-infested penis.</description>
+	</rjw.HediffDef_SexPart>
+
+	<rjw.RacePartDef>
+		<defName>TentaclePenis</defName>
+		<hediffName>TentaclePenis</hediffName>
+	</rjw.RacePartDef>
+
 	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartTentBreast">
-		<defName>TBreasts</defName>
-		<label>tentacle inhabited breasts</label>
-		<labelNoun>a pair of breasts</labelNoun>
-		<description>A pair of breasts.</description>
-		<descriptionHyperlinks><ThingDef>Breasts</ThingDef></descriptionHyperlinks>
-		<spawnThingOnRemoved>Breasts</spawnThingOnRemoved>
+		<defName>TentacleBreasts</defName>
+		<label>Tentacle breasts</label>
+		<description>A pair of tentacle-infested breasts.</description>
 	</rjw.HediffDef_SexPart>
+
+	<rjw.RacePartDef>
+		<defName>TentacleBreasts</defName>
+		<hediffName>TentacleBreasts</hediffName>
+	</rjw.RacePartDef>
 
 </Defs>

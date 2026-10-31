@@ -1,67 +1,6 @@
 <Defs>
 
-	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartVagina">
-		<defName>TentacleQueenVagina</defName>
-		<label>Tentacle vagina</label>
-		<description>A tentacle-infested vagina. This one produces Amor Internum eggs.</description>
-		<descriptionHyperlinks>
-			<ThingDef>OvipositorF</ThingDef>
-		</descriptionHyperlinks>
-		<spawnThingOnRemoved>OvipositorF</spawnThingOnRemoved>
-		<sizeProfile>DefaultVaginaSizes</sizeProfile>
-		<genitalFamily>FemaleOvipositor</genitalFamily>
-		<genitalTags>
-			<li>CanPenetrate</li>
-			<li>CanBePenetrated</li>
-			<li>CanEgg</li>
-		</genitalTags>
-		<partTags>
-			<li>Tapered</li>
-			<li>Internal</li>
-			<li>Prehensile</li>
-			<li>Rigid</li>
-		</partTags>
-		<comps>
-			<li Class="rjw.HediffCompProperties_Ovipositor">
-				<eggCount>2~4</eggCount>
-				<!-- How many eggs to produce at once. This is a FloatRange, so you can also have e.g. 2~5 -->
-				<!-- Time to produce new eggs -->
-				<eggIntervalTicks>120000~200000</eggIntervalTicks>
-			</li>
-		</comps>
-	</rjw.HediffDef_SexPart>
-
-	<rjw.RacePartDef>
-		<defName>TentacleQueenVagina</defName>
-		<hediffName>TentacleQueenVagina</hediffName>
-	</rjw.RacePartDef>
-
-	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartAnus">
-		<defName>TentacleAnus</defName>
-		<label>Tentacle anus</label>
-		<description>A tentacle-infested anus.</description>
-		<descriptionHyperlinks>
-			<ThingDef>InsectAnus</ThingDef>
-		</descriptionHyperlinks>
-		<spawnThingOnRemoved>InsectAnus</spawnThingOnRemoved>
-		<sizeProfile>DefaultAnusSizes</sizeProfile>
-		<genitalFamily>Anus</genitalFamily>
-		<genitalTags>
-			<li>CanBePenetrated</li>
-		</genitalTags>
-		<partTags>
-			<li>Internal</li>
-			<li>Rigid</li>
-		</partTags>
-	</rjw.HediffDef_SexPart>
-
-	<rjw.RacePartDef>
-		<defName>TentacleAnus</defName>
-		<hediffName>TentacleAnus</hediffName>
-	</rjw.RacePartDef>
-
-
-	<!-- Groups -->
+		<!-- Groups -->
   <BodyPartGroupDef>
     <defName>UpperLeftClaw</defName>
     <label>upper left claw</label>
@@ -350,7 +289,7 @@
 		</femaleBreasts>
 
 		<femaleGenitals>
-			<li>TentacleQueenVagina</li>
+			<li>TentacleVaginaQueen</li>
 		</femaleGenitals>
 
 		<maleBreasts>

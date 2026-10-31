@@ -15,9 +15,9 @@
 		<modExtensions>
 			<li Class="RJW_Genes.GenitaliaTypeExtension">
 				<penis>Penis</penis>
-				<vagina>TVagina</vagina>
-				<anus>TAnus</anus>
-				<breasts>TBreasts</breasts>
+				<vagina>TentacleVagina</vagina>
+				<anus>TentacleAnus</anus>
+				<breasts>TentacleBreasts</breasts>
 			</li>
 		</modExtensions>
 		<displayOrderInCategory>802</displayOrderInCategory>
@@ -31,10 +31,10 @@
 		<iconPath>Genes/Tentacle_Vagina</iconPath>
 		<modExtensions>
 			<li Class="RJW_Genes.GenitaliaTypeExtension">
-				<penis>TPenis</penis>
+				<penis>TentaclePenis</penis>
 				<vagina>Vagina</vagina>
-				<anus>TAnus</anus>
-				<breasts>TBreasts</breasts>
+				<anus>TentacleAnus</anus>
+				<breasts>Breasts</breasts>
 			</li>
 		</modExtensions>
 		<displayOrderInCategory>803</displayOrderInCategory>
