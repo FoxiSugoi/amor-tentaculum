@@ -3,7 +3,7 @@
     <AbilityDef ParentName="AbilityTouchBase">
         <defName>Genitalsretract</defName>
         <label>produce amornuum</label>
-        <description>Swaps the matron from egg production Amornuum production.</description>
+        <description>Swaps the brood mother from egg production to Amornuum production.</description>
         <iconPath>Abilities/ButtVore</iconPath>
         <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
         <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>
@@ -61,7 +61,7 @@
     <AbilityDef ParentName="AbilityTouchBase">
         <defName>GenitalsEggActivate</defName>
         <label>produce eggs</label>
-        <description>Swaps the matron from Amornuum production to egg production.</description>
+        <description>Swaps the brood mother from Amornuum production to egg production.</description>
         <iconPath>Abilities/ButtVore</iconPath>
         <displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>
         <disableGizmoWhileUndrafted>false</disableGizmoWhileUndrafted>

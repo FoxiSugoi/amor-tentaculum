@@ -1,11 +1,11 @@
 <Defs>
 
     <HediffDef>
-    <defName>MatronTransform</defName>
+    <defName>QueenTransform</defName>
     <hediffClass>HediffWithComps</hediffClass>
     <label>genetic transformation</label>
     <labelNoun>genetic transformation</labelNoun>
-    <description>The Amor Matron egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximatly two days (with default multipliers) while the process finishes.</description>
+    <description>The Amor Queen egg has finished growing and is now rewriting the Host's genetic code to suit the needs of the hive. This is a delicate process, and the Host will be in a state similar to a Xenogermination Coma for approximatly two days (with default multipliers) while the process finishes.</description>
     <defaultLabelColor>(255,20,147)</defaultLabelColor>
     <minSeverity>0.001</minSeverity>
     <initialSeverity>0.001</initialSeverity>
@@ -43,7 +43,7 @@
             <bodyPart>Anus</bodyPart>
           </li>
           <li>
-            <hediffDef>MatronEggIncubation</hediffDef>
+            <hediffDef>QueenEggIncubation</hediffDef>
             <validSeverity>0~0.2</validSeverity>
             <severityPerDay>-200</severityPerDay>
             <initialSeverity>-1</initialSeverity>
@@ -52,7 +52,7 @@
       </li>
       <li Class="EBSGFramework.HediffCompProperties_AlterXenotype">
         <xenotypes>
-			    <AmorMatronXenotype>1</AmorMatronXenotype>
+			    <AmorQueenXenotype>1</AmorQueenXenotype>
         </xenotypes>
         <severities>1</severities>
         <setXenotype>False</setXenotype>

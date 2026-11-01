@@ -1,15 +1,15 @@
 <Defs>
 
     <XenotypeDef>
-    <defName>AmorMatronXenotype</defName>
-    <label>Amor Matron</label>
-    <description>A human host that has been genetically modified into an Amor Matron.  The Matron incubates and lays Amor Brood Mother eggs and also produces the Tentacle Slim resource.</description>
-    <descriptionShort>A human host that has been genetically modified into an Amor Matron.</descriptionShort>
+    <defName>AmorQueenXenotype</defName>
+    <label>Amor Queen</label>
+    <description>A human host that has been genetically modified into an Amor Queen.  The Queen incubates and lays Amor Brood Mother eggs and also produces the Tentacle Slim resource.</description>
+    <descriptionShort>A human host that has been genetically modified into an Amor Queen.</descriptionShort>
     <iconPath>Genes/Xenotype-host</iconPath>
     <inheritable>false</inheritable>
     <chanceToUseNameMaker>0</chanceToUseNameMaker>
     <genes>
-      <li>AmorMatronHostBody</li>
+      <li>AmorQueenHostBody</li>
       <li>RJWGenes_AmorTentacleInfestedFemaleGenitalia</li>
       <li>HostTentacleNeed</li>
       <li>rjw_genes_female_only</li>

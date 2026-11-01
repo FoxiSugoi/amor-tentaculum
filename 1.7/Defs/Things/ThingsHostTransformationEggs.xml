@@ -1,9 +1,9 @@
 <Defs>
 
 	<ThingDef ParentName="MakeableDrugPillBase">
-		<defName>AmorMatronEgg</defName>
-		<label>Amor Matron egg</label>
-		<description>An Amor Matron Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Matron host.\n\nNOTE: This transformation will only work on female pawns. It will cause lethal organ instability in males.</description>
+		<defName>AmorQueenEgg</defName>
+		<label>Amor Queen egg</label>
+		<description>An Amor Queen Egg. Can be inserted into a pawn, where it will hatch and progressively take over the body, transforming them into an Amor Queen host.\n\nNOTE: This transformation will only work on female pawns. It will cause lethal organ instability in males.</description>
 		<possessionCount>10</possessionCount>
 		<graphicData>
 			<texPath>Things/Items/StartEgg</texPath>
@@ -33,15 +33,15 @@
 			<useEatingSpeedStat>false</useEatingSpeedStat>
 			<outcomeDoers>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>MatronEggIncubationSuccess</hediffDef>
+					<hediffDef>QueenEggIncubationSuccess</hediffDef>
 					<severity>1.45</severity>
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>MatronEggIncubationFailure</hediffDef>
+					<hediffDef>QueenEggIncubationFailure</hediffDef>
 					<severity>0.1</severity>
 				</li>
 				<li Class="IngestionOutcomeDoer_GiveHediff">
-					<hediffDef>MatronEggOverrideFailure</hediffDef>
+					<hediffDef>QueenEggOverrideFailure</hediffDef>
 					<severity>0.1</severity>
 				</li>
 			</outcomeDoers>

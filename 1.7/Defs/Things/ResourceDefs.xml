@@ -29,12 +29,12 @@
 	<ThingDef ParentName="OrganicProductBase">
 		<defName>TentacleSlime</defName>
 		<label>tentacle slime</label>
-		<description>A sticky, viscous substance "produced" by Amor Matrons. Used for crafting more advanced eggs and implants. It last indefinitely, so long as it is stored safely. An extremely valuable resource!</description>
+		<description>A sticky, viscous substance "produced" by Amor Queens. Used for crafting more advanced eggs and implants. It lasts indefinitely, so long as it is stored safely. An extremely valuable resource!</description>
 
 		<!--
 		Temporarily converted to non-food so pawns won't just gobble it all up immediately.
 		
-		<description>A sticky, viscous substance "produced" by Amor Matrons. Used for crafting more advanced eggs and implants, but also provides a reasonable amount of nutrition when eaten.  It last indefinitely, so long as it is stored safely.  An extremely valuable resource!</description>
+		<description>A sticky, viscous substance "produced" by Amor Queens. Used for crafting more advanced eggs and implants, but also provides a reasonable amount of nutrition when eaten.  It last indefinitely, so long as it is stored safely.  An extremely valuable resource!</description>
 		-->
 
 		<graphicData>

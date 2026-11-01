@@ -91,8 +91,8 @@ A female host specialized for seducing and placating other pawns.  Can convert i
 ### Amor Baroness
 A female host specialized to carry Amor Internum for use by other host pawns.
 
-### Amor Matron
-The strongest of the female host types.  Grows and lays Amor Larva eggs to help the hive reproduce and produces Tentacle Slime, which is a key crafting material.  She provides the foundational materials for growing your colony - protect her at all costs!
+### Amor Queen
+The strongest of the female host types.  Grows and lays Amor Brood Mother eggs to help the hive reproduce. She also produces Tentacle Slime, which is a key crafting material.  This Host type provides the foundational materials for growing your colony - protect her at all costs!
 
 # Resources
 
@@ -115,7 +115,7 @@ A fermented drink that relaxes the pawn, but makes them horny and more likely to
 ## Host-Produced Resources
 
 ### Tentacle Slime
-A sticky, viscous substance produced by Amor Matrons.  Used for crafting more advanced eggs and implants.
+A sticky, viscous substance produced by Amor Queens.  Used for crafting more advanced eggs and implants.
 
 # Buildings
 

@@ -3,7 +3,7 @@
 	<ThingDef ParentName="EggFertBase">
 		<defName>BroodMotherEgg</defName>
 		<label>Amor Brood Mother Egg</label>
-		<description>A huge egg produced in the womb of an Amor Matron Host. Hatches into an Amor Brood Mother, a core component of a tentacle colony. Protect it!.</description>
+		<description>A huge egg produced in the womb of an Amor Queen Host. Hatches into an Amor Brood Mother, a core component of a tentacle colony. Protect it!.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Items/HugeEgg</texPath>

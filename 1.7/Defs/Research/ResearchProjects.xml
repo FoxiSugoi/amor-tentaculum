@@ -3,7 +3,7 @@
 	<ResearchProjectDef>
 		<defName>ATCore</defName>
 		<label>Amor Tentaculum Core Principles</label>
-		<description>Reveals the basic methods for cultivating your own tentacle creatures. This will allow you to craft an Amor Matron egg, which is the first step in converting your pawns into tentacle Hosts.</description>
+		<description>Reveals the basic methods for cultivating your own tentacle creatures. This will allow you to craft an Amor Queen egg, which is the first step in converting your pawns into tentacle Hosts.</description>
 		<tab>AmorTentaculum</tab>
 		<baseCost>1000</baseCost>
 		<techLevel>Industrial</techLevel>

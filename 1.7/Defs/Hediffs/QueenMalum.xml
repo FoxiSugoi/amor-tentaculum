@@ -368,7 +368,7 @@
       <li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
           <hediffSets>
                 <li>
-                  <hediffDef>MatronTransform</hediffDef>
+                  <hediffDef>QueenTransform</hediffDef>
                   <validSeverity>1.5</validSeverity>
                   <severityPerDay>0</severityPerDay>
                   <initialSeverity>0.1</initialSeverity>

@@ -1,5 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <Defs>
+	
+	<!--
  <ThingDef ParentName="EggFertBase">
     <defName>BigTEgg</defName>
     <label>Huge Vaginal Egg</label>
@@ -18,6 +20,7 @@
       </li>
     </comps>
   </ThingDef>
+	-->
 
  <ThingDef ParentName="EggFertBase">
     <defName>MedTEgg</defName>

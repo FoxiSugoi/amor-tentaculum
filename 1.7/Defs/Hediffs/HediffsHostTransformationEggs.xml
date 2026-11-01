@@ -48,11 +48,11 @@
 		</comps>
 	</HediffDef>
 	
-	<HediffDef Name="MatronEggIncubationFailure" ParentName="EggIncubationFailureBase">
-		<defName>MatronEggIncubationFailure</defName>
-		<label>Matron egg rejection</label>
+	<HediffDef Name="QueenEggIncubationFailure" ParentName="EggIncubationFailureBase">
+		<defName>QueenEggIncubationFailure</defName>
+		<label>Queen egg rejection</label>
 		<labelNoun>rejection</labelNoun>
-		<description>The Amor Matron egg is rejecting this host body. It will result in a slow and painful death...</description>
+		<description>The Amor Queen egg is rejecting this host body. It will result in a slow and painful death...</description>
 		<comps>
 			<li Class="EBSGFramework.HediffCompProperties_SeverityByGender">
 				<genders>
@@ -88,17 +88,17 @@
 		</comps>
 	</HediffDef>
 
-	<HediffDef Name="MatronEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
-		<defName>MatronEggOverrideFailure</defName>
-		<label>Matron incubation failure</label>
+	<HediffDef Name="QueenEggOverrideFailure" ParentName="HostTypeOverrideFailureBase">
+		<defName>QueenEggOverrideFailure</defName>
+		<label>Queen incubation failure</label>
 		<labelNoun>failure</labelNoun>
-		<description>The attempt to implant an Amor Matron egg failed, as this pawn already is an Amor Host.  This will cause them pain for a few days, but they will recover.</description>
+		<description>The attempt to implant an Amor Queen egg failed, as this pawn already is an Amor Host.  This will cause them pain for a few days, but they will recover.</description>
 		<comps>
 			<li Class="EBSGFramework.HediffCompProperties_SeverityByGenes">
 				<baseSeverity>0</baseSeverity>
 				<geneEffects>
 					<li>
-						<gene>AmorMatronHostBody</gene>
+						<gene>AmorQueenHostBody</gene>
 						<effect>0.001</effect>
 					</li>
 				</geneEffects>
@@ -117,11 +117,11 @@
 		<tendable>false</tendable>
 	</HediffDef>
 		
-	<HediffDef Name="MatronEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
-		<defName>MatronEggIncubationSuccess</defName>
-		<label>Matron egg incubation</label>
+	<HediffDef Name="QueenEggIncubationSuccess" ParentName="EggIncubationSuccessBase">
+		<defName>QueenEggIncubationSuccess</defName>
+		<label>Queen egg incubation</label>
 		<labelNoun>incubation</labelNoun>
-		<description>An Amor Matron egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Matron. The incubation process takes approximately 15 days (with default multipliers).</description>
+		<description>An Amor Queen egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Queen. The incubation process takes approximately 15 days (with default multipliers).</description>
 		<comps>
 			<li Class="HediffCompProperties_SeverityPerDay">
 				<severityPerDay>9</severityPerDay>
@@ -131,7 +131,7 @@
 				<baseSeverity>0.001</baseSeverity>
 				<geneEffects>
 					<li>
-						<gene>AmorMatronHostBody</gene>
+						<gene>AmorQueenHostBody</gene>
 						<effect>-1</effect>
 					</li>
 				</geneEffects>
@@ -145,7 +145,7 @@
 			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
 				<hediffSets>
 					<li>
-						<hediffDef>MatronEggIncubation</hediffDef>
+						<hediffDef>QueenEggIncubation</hediffDef>
 						<validSeverity>1.48~1.51</validSeverity>
 						<severityPerDay>0</severityPerDay>
 						<initialSeverity>0.001</initialSeverity>
@@ -182,11 +182,11 @@
 		</comps>
 	</HediffDef>
 
-	<HediffDef Name="MatronEggIncubation" ParentName="EggIncubationBase">
-		<defName>MatronEggIncubation</defName>
-		<label>Matron egg incubation</label>
+	<HediffDef Name="QueenEggIncubation" ParentName="EggIncubationBase">
+		<defName>QueenEggIncubation</defName>
+		<label>Queen egg incubation</label>
 		<labelNoun>incubation</labelNoun>
-		<description>An Amor Matron egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Matron. The incubation process takes approximately 15 days (with default multipliers).</description>
+		<description>An Amor Queen egg is growing within the host. Unlike a normal pregnancy, this will not result in birth, but will gradually transform the host into an Amor Queen. The incubation process takes approximately 15 days (with default multipliers).</description>
 		<comps>
 			<li Class="AmorTentaculum.HediffCompProperties_MultipliedSeverityPerDay">
 				<modSettingMultiplier>hostIncubationSpeedFactor</modSettingMultiplier>
@@ -195,13 +195,13 @@
 			<li Class="EBSGFramework.HediffCompProperties_CreateOtherHediffs">
 				<hediffSets>
 					<li>
-						<hediffDef>MatronTransform</hediffDef>
+						<hediffDef>QueenTransform</hediffDef>
 						<validSeverity>1.48~1.51</validSeverity>
 						<severityPerDay>0</severityPerDay>
 						<initialSeverity>0.1</initialSeverity>
 					</li>
 					<li>
-						<hediffDef>AmorMatronPregnancy</hediffDef>
+						<hediffDef>AmorQueenPregnancy</hediffDef>
 						<validSeverity>1.48~1.51</validSeverity>
 						<severityPerDay>0</severityPerDay>
 						<initialSeverity>0.1</initialSeverity>

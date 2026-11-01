@@ -41,8 +41,8 @@
 	</GeneDef>
 
 	<GeneDef>
-		<defName>AmorMatronHostBody</defName>
-		<label>Amor Matron</label>
+		<defName>AmorQueenHostBody</defName>
+		<label>Amor Queen</label>
 		<displayCategory>HiddenTentacleGenes</displayCategory>
 		<geneClass>EBSGFramework.HediffAdder</geneClass>
 		<description>Carriers of this gene have a body that has been turned into a holding vessel for Amor Internum tentacles and a breeding nest for Amor Brood Mother eggs.</description>
@@ -57,7 +57,7 @@
 			<li Class="EBSGFramework.EBSGExtension">
 				<hediffsToApply>
 					<li>
-						<hediff>AmorMatronSlimeProduction</hediff>
+						<hediff>AmorQueenSlimeProduction</hediff>
 						<onlyIfNew>true</onlyIfNew>
 						<severity>1</severity>
 						<bodyParts>
@@ -65,7 +65,7 @@
 						</bodyParts>
 					</li>
 					<li>
-						<hediff>AmorMatronPregnancy</hediff>
+						<hediff>AmorQueenPregnancy</hediff>
 						<onlyIfNew>true</onlyIfNew>
 						<severity>0.01</severity>
 					</li>

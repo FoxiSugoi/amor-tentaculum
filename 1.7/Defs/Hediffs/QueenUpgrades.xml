@@ -3,7 +3,7 @@
       <ThingDef ParentName="BodyPartBionicBase">
     <defName>TWombItem</defName>
     <label>in utero incubater</label>
-    <description>An advanced artificial womb implant designed to aid in the incubation of Amor Matron eggs.</description>
+    <description>An advanced artificial womb implant designed to aid in the incubation of Amor Brood Mother eggs.</description>
     <descriptionHyperlinks>
       <RecipeDef>InstallTWombEnhance</RecipeDef>
     </descriptionHyperlinks>
@@ -36,7 +36,7 @@
     <defName>TWombEnhanced</defName>
     <label>in utero incubater</label>
     <labelNoun>a in utero incubater</labelNoun>
-    <description>An artificial implant inside the womb, aids in the incubation of Amor Matron eggs.</description>
+    <description>An artificial implant inside the womb, aids in the incubation of Amor Brood Mother eggs.</description>
     <descriptionHyperlinks><ThingDef>TWombItem</ThingDef></descriptionHyperlinks>
     <spawnThingOnRemoved>TWombItem</spawnThingOnRemoved>
         <comps>
