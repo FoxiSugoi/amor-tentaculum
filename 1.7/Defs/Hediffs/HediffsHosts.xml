@@ -112,7 +112,7 @@
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>Amor Matron</label>
 		<labelNoun>Mother</labelNoun>
-		<description>The Amor Matron is permanently pregnant. The Host can gestate massive Amor Queen eggs over time, whenever they choose, once they have reached the "fertile" stage. Additionally, as they become accustomed to the permanent pregnancy, their bodies will be adapted to protect the growing eggs.</description>
+		<description>The Amor Matron is permanently pregnant. The Host can gestate massive Amor Brood Mother eggs over time, whenever they choose, once they have reached the "fertile" stage. Additionally, as they become accustomed to the permanent pregnancy, their bodies will be adapted to protect the growing eggs.</description>
 		<defaultLabelColor>(203,120,227)</defaultLabelColor>
 		<scenarioCanAdd>true</scenarioCanAdd>
 		<maxSeverity>1.5</maxSeverity>
@@ -126,7 +126,7 @@
 			<li Class="EBSGFramework.HediffCompProperties_GiveAbilityAtSeverity">
 				<abilitiesAtSeverities>
 					<li>
-						<abilityDef>IncubateMatronEgg</abilityDef>
+						<abilityDef>IncubateBroodMotherEgg</abilityDef>
 						<validSeverity>0.6~999</validSeverity>
 					</li>
 				</abilitiesAtSeverities>

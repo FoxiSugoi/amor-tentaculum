@@ -1,9 +1,9 @@
 <Defs>
 
 	<ThingDef ParentName="EggFertBase">
-		<defName>AmorQueenEgg</defName>
-		<label>Amor Queen Egg</label>
-		<description>A huge egg produced in the womb of an Amor Matron Host. Hatches into an Amor Queen, a core component of a tentacle colony. Protect it!.</description>
+		<defName>BroodMotherEgg</defName>
+		<label>Amor Brood Mother Egg</label>
+		<description>A huge egg produced in the womb of an Amor Matron Host. Hatches into an Amor Brood Mother, a core component of a tentacle colony. Protect it!.</description>
 		<possessionCount>1</possessionCount>
 		<graphicData>
 			<texPath>Things/Items/HugeEgg</texPath>
@@ -14,7 +14,7 @@
 		<comps>
 			<li Class="AmorTentaculum.CompProperties_FactionHatcher">
 				<hatcherDaystoHatch>0.5</hatcherDaystoHatch> <!-- TODO: Back to normal values. -->
-				<hatcherPawn>TentacleQueen</hatcherPawn>
+				<hatcherPawn>TentacleBroodMother</hatcherPawn>
 			</li>
 		</comps>
 	</ThingDef>
@@ -25,7 +25,7 @@
 		<labelNoun>Amor Internum egg</labelNoun>
 		<description>An Amor Internum tentacle egg, growing inside the Tentacle.</description>
 		<parentDefs>
-			<li>TentacleQueen</li>
+			<li>TentacleBroodMother</li>
 		</parentDefs>
 		<childrenDefs>
 			<li>TInternal</li>

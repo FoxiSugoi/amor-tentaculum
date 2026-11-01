@@ -1,8 +1,8 @@
 <Defs>
  <ThoughtDef>
-    <defName>queenthought</defName>
+    <defName>broodmothertought</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>MatronEggIncubationSuccess</hediff>
+    <hediff>MatronEggIncubation</hediff>
     <stackLimit>1</stackLimit>
     <validWhileDespawned>true</validWhileDespawned>
     <nullifyingTraits>
@@ -66,9 +66,9 @@
   </ThoughtDef>
 
   <ThoughtDef>
-    <defName>queenthoughtliked</defName>
+    <defName>broodmothertoughtliked</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
-    <hediff>MatronEggIncubationSuccess</hediff>
+    <hediff>MatronEggIncubation</hediff>
     <stackLimit>1</stackLimit>
     <validWhileDespawned>true</validWhileDespawned>
 	<requiredTraits>

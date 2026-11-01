@@ -41,7 +41,7 @@
     <spawnThingOnRemoved>TWombItem</spawnThingOnRemoved>
         <comps>
       <li Class="EBSGFramework.HediffCompProperties_GiveOtherHediffPeriodically">
-                <hediff>AmorQueenIncubation</hediff>
+                <hediff>BroodMotherIncubation</hediff>
                 <severity>0.08</severity>
                 <interval>90000</interval>
                 <bodyParts>

@@ -130,8 +130,8 @@
   <!-- Bodies -->
   
   <BodyDef>
-    <defName>QueenBody</defName>
-    <label>QueenCore</label>
+    <defName>BroodMotherBody</defName>
+    <label>BroodMotherCore</label>
     <corePart>
       <def>Body</def>
       <height>Middle</height>
@@ -276,9 +276,9 @@
   </BodyDef>
 
 	<rjw.RaceGroupDef>
-		<defName>Queens</defName>
+		<defName>BroodMothers</defName>
 		<raceNames>
-			<li>TentacleQueen</li>
+			<li>TentacleBroodMother</li>
 		</raceNames>
 
 		<anuses>
@@ -289,7 +289,7 @@
 		</femaleBreasts>
 
 		<femaleGenitals>
-			<li>TentacleVaginaQueen</li>
+			<li>TentacleVaginaBroodMother</li>
 		</femaleGenitals>
 
 		<maleBreasts>

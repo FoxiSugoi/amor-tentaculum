@@ -1,10 +1,10 @@
 <Defs>
 
 	<ThingDef ParentName="AnimalThingBase">
-		<defName>TentacleQueen</defName>
-		<label>Amor Queen</label>
+		<defName>TentacleBroodMother</defName>
+		<label>Amor Brood Mother</label>
 		<devNote>misc</devNote>
-		<description>A huge, female mass of tentacles dedicated to breeding. The Amor Queen is the largest of the Tentacle types, and produces vast amounts of Amor Larvae. Those Larvae can then be converted into other Tentacle types.</description>
+		<description>A huge, female mass of tentacles dedicated to breeding. The Amor Brood Mother is the largest of the Tentacle types, and produces vast amounts of Amor Larvae. Those Larvae can then be converted into other Tentacle types.</description>
 		<statBases>
 			<MoveSpeed>6</MoveSpeed>
 			<MarketValue>950</MarketValue>
@@ -32,7 +32,7 @@
 			<li Class="VEF.AnimalBehaviours.CompProperties_InitialHediff">
 				<applyToAGivenBodypart>True</applyToAGivenBodypart>
 				<part>Genitals</part>
-				<hediffname>TentacleQueenVagina</hediffname>
+				<hediffname>TentacleBroodMotherVagina</hediffname>
 				<hediffseverity>1</hediffseverity>
 			</li>
 			-->
@@ -58,7 +58,7 @@
 			</li>
 		</comps>
 		<race>
-			<body>QueenBody</body>
+			<body>BroodMotherBody</body>
 			<predator>true</predator>
 			<maxPreyBodySize>2</maxPreyBodySize>
 			<baseBodySize>3.25</baseBodySize>
@@ -109,9 +109,9 @@
 	</ThingDef>
 
 	<PawnKindDef ParentName="AnimalKindBase">
-		<defName>TentacleQueen</defName>
-		<label>Amor Queen</label>
-		<race>TentacleQueen</race>
+		<defName>TentacleBroodMother</defName>
+		<label>Amor Brood Mother</label>
+		<race>TentacleBroodMother</race>
 		<combatPower>255</combatPower>
 		<ecoSystemWeight>0.25</ecoSystemWeight>
 		<lifeStages>

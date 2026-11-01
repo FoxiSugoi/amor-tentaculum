@@ -61,10 +61,10 @@ A non-combat mass of tentacles that can be harvested for hard and soft resin res
 ### Amor Brewer
 A non-combat mass of tentacles that produces drugs and chemicals regularly.  Can be switched between various production targets.
 
-### Amor Brood Mother
+### Amor Spawner
 A non-combat mass of tentacles, designed to help grow Amor Internum tentacles to empower Amor hosts' abilities.  Grows and lays Amor Internum eggs.
 
-### Amor Queen
+### Amor Brood Mother
 A non-combat mass of tentacles that focuses entirely on incubating and laying Amor Larva eggs, which will eventually grow into other types of tentacles.  Has combat abilities, but due to its essential nature to the hive, should not engage in combat unless necessary.
 
 # Host Types
@@ -184,7 +184,7 @@ A plasteel implant that stretches the host's anus, allowing more capacity for Am
 An advanced implant that replaces the host's stomach completely. The Amor Internum tentacles that live there will handle the host's digestive processes, which frees up room for additional Amor Internum storage capacity.
 
 ### Uterine Growth Implant (Queen)
-Increases the incubation rate of Amor Queen eggs.  Only works on Amor Matrons.
+Increases the incubation rate of Amor Brood Mother eggs.  Only works on Amor Queens.
 
 ## Misc Implants
 

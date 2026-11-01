@@ -148,9 +148,9 @@
 	</AbilityDef>
 
 	<AbilityDef>
-		<defName>BirthMatronEgg</defName>
-		<label>Lay Amor Queen egg</label>
-		<description>Begin laying a massive Amor Queen egg.</description>
+		<defName>BirthBroodMotherEgg</defName>
+		<label>Lay Amor Brood Mother egg</label>
+		<description>Begin laying a massive Amor Brood Mother egg.</description>
 		<iconPath>Abilities/OviVag</iconPath>
 		<jobDef>CastAbilityOnThing</jobDef>
 		<targetRequired>False</targetRequired>
@@ -192,13 +192,13 @@
 			<li Class="EBSGFramework.CompProperties_AbilityGiveMultipleHediffs">
 				<hediffsToGive>
 					<li>
-						<hediffDef>AmorQueenIncubation</hediffDef>
+						<hediffDef>BroodMotherIncubation</hediffDef>
 						<onlyApplyToSelf>true</onlyApplyToSelf>
 						<replaceExisting>true</replaceExisting>
 						<severity>0</severity>
 					</li>
 					<li>
-						<hediffDef>QueenEggLabor</hediffDef>
+						<hediffDef>BroodMotherEggLabor</hediffDef>
 						<onlyApplyToSelf>true</onlyApplyToSelf>
 						<replaceExisting>false</replaceExisting>
 						<severity>1</severity>
@@ -209,9 +209,9 @@
 	</AbilityDef>
 	
 	<AbilityDef>
-		<defName>IncubateMatronEgg</defName>
-		<label>Incubate Amor Queen egg</label>
-		<description>Begin the process of incubating a massive Amor Queen egg.\n\nWARNING: This process is very debilitating for the Host. Make sure she gets somewhere safe, quickly!</description>
+		<defName>IncubateBroodMotherEgg</defName>
+		<label>Incubate Amor Brood Mother egg</label>
+		<description>Begin the process of incubating a massive Amor Brood Mother egg.\n\nWARNING: This process is very debilitating for the Host. Make sure she gets somewhere safe, quickly!</description>
 		<iconPath>Abilities/OviVag</iconPath>
 		<jobDef>CastAbilityOnThing</jobDef>
 		<targetRequired>False</targetRequired>
@@ -253,7 +253,7 @@
 			<li Class="EBSGFramework.CompProperties_AbilityGiveMultipleHediffs">
 				<hediffsToGive>
 					<li>
-						<hediffDef>AmorQueenIncubation</hediffDef>
+						<hediffDef>BroodMotherIncubation</hediffDef>
 						<onlyApplyToSelf>true</onlyApplyToSelf>
 						<replaceExisting>true</replaceExisting>
 						<bodyParts>
@@ -265,8 +265,8 @@
 			</li>
 			<li Class="EBSGFramework.CompProperties_AbilityAbilityValidator">
 				<casterHasNoneOfHediffs>
-					<li>AmorQueenIncubation</li>
-					<li>QueenEggLabor</li>
+					<li>BroodMotherIncubation</li>
+					<li>BroodMotherEggLabor</li>
 				</casterHasNoneOfHediffs>
 				<hideGizmo>true</hideGizmo>
 			</li>

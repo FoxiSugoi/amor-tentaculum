@@ -2,14 +2,14 @@
 
 	<HediffDef>
 		<hediffClass>HediffWithComps</hediffClass>
-		<defName>AmorQueenIncubation</defName>
-		<label>Queen egg</label>
-		<labelNoun>an amor queen egg</labelNoun>
+		<defName>BroodMotherIncubation</defName>
+		<label>Brood Mother egg</label>
+		<labelNoun>an amor brood mother egg</labelNoun>
 		<defaultLabelColor>(240,189,234)</defaultLabelColor>
 		<minSeverity>0</minSeverity>
 		<initialSeverity>0.001</initialSeverity>
 		<maxSeverity>1.5</maxSeverity>
-		<description>An Amor Queen egg is being incubated by the Matron, and is growing inside her body. This process takes around 20 days (with default multipliers), and she will not enjoy it (although her Host body will adapt to suppress the pain over time).</description>
+		<description>An Amor Brood Mother egg is being incubated by the Matron, and is growing inside her body. This process takes around 20 days (with default multipliers), and she will not enjoy it (although her Host body will adapt to suppress the pain over time).</description>
 		<stages>
 			<li>
 				<minSeverity>0.001</minSeverity>
@@ -83,7 +83,7 @@
 			<li Class="EBSGFramework.HediffCompProperties_GiveAbilityAtSeverity">
 				<abilitiesAtSeverities>
 					<li>
-						<abilityDef>BirthMatronEgg</abilityDef>
+						<abilityDef>BirthBroodMotherEgg</abilityDef>
 						<validSeverity>0.98~999</validSeverity>
 					</li>
 				</abilitiesAtSeverities>
@@ -96,11 +96,11 @@
 	</HediffDef>
 
 	<HediffDef>
-		<defName>QueenEggLabor</defName>
+		<defName>BroodMotherEggLabor</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>Laying Egg (dilating)</label>
 		<labelNoun>laying egg</labelNoun>
-		<description>The Amor Matron is preparing to birth an Amor Queen egg. The labor process does not take a fixed amount of time, and the Host will progress through various stages of pain and contractions. Due to the size of the Egg, this will be quite debilitating.</description>
+		<description>The Amor Matron is preparing to birth an Amor Brood Mother egg. The labor process does not take a fixed amount of time, and the Host will progress through various stages of pain and contractions. Due to the size of the Egg, this will be quite debilitating.</description>
 		<defaultLabelColor>(240,189,234)</defaultLabelColor>
 		<blocksSleeping>true</blocksSleeping>
 		<minSeverity>0</minSeverity>
@@ -155,7 +155,7 @@
 			<li Class="EBSGFramework.HediffCompProperties_HediffsOnRemoval">
 				<hediffsToGive>
 					<li>
-						<hediffDef>QueenEggDelivery</hediffDef>
+						<hediffDef>BroodMotherEggDelivery</hediffDef>
 						<bodyParts>
 							<li>Genitals</li>
 						</bodyParts>
@@ -166,11 +166,11 @@
 	</HediffDef>
 
 	<HediffDef>
-		<defName>QueenEggDelivery</defName>
+		<defName>BroodMotherEggDelivery</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>Laying Egg (pushing)</label>
 		<labelNoun>laying egg</labelNoun>
-		<description>The Amor Matron is actively birthing an Amor Queen egg and can do nothing but focus on the delivery. The Queen Egg is coming!</description>
+		<description>The Amor Matron is actively birthing an Amor Brood Mother egg and can do nothing but focus on the delivery. The egg is coming!</description>
 		<defaultLabelColor>(240,189,234)</defaultLabelColor>
 		<blocksSleeping>true</blocksSleeping>
 		<preventsCrawling>true</preventsCrawling>
@@ -196,7 +196,7 @@
 				<onRemovalThings>
 					<li>
 						<li>
-							<thing>AmorQueenEgg</thing>
+							<thing>BroodMotherEgg</thing>
 						</li>
 					</li>
 				</onRemovalThings>

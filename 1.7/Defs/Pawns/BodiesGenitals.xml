@@ -372,7 +372,7 @@
 	</rjw.HediffDef_SexPart>
 
 	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartTentVagina">
-		<defName>TentacleVaginaQueen</defName>
+		<defName>TentacleVaginaBroodMother</defName>
 		<label>Tentacle vagina</label>
 		<description>A tentacle-infested vagina. This one produces Amor Internum eggs.</description>
 		<comps>
@@ -386,8 +386,8 @@
 	</rjw.HediffDef_SexPart>
 
 	<rjw.RacePartDef>
-		<defName>TentacleVaginaQueen</defName>
-		<hediffName>TentacleVaginaQueen</hediffName>
+		<defName>TentacleVaginaBroodMother</defName>
+		<hediffName>TentacleVaginaBroodMother</hediffName>
 	</rjw.RacePartDef>
 
 	<rjw.HediffDef_SexPart ParentName="NaturalPrivatePartTentVagina">

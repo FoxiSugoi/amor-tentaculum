@@ -1,15 +1,15 @@
 <Defs>
   
   <RecipeDef ParentName="SurgeryRemoveImplantBase">
-    <defName>AbortQueenEgg</defName>
+    <defName>AbortBroodMotherEgg</defName>
     <label>abort egg incubation</label>
-    <description>Surgically remove the Amor Queen egg from the pawn, destroying it.</description>
+    <description>Surgically remove the Amor Brood Mother egg from the pawn, destroying it.</description>
     <workerClass>Recipe_RemoveHediff</workerClass>
     <jobString>Aborting incubation.</jobString>
     <workAmount>1000</workAmount>
     <hideBodyPartNames>false</hideBodyPartNames>
     <targetsBodyPart>true</targetsBodyPart>
-    <removesHediff>AmorQueenIncubation</removesHediff>
+    <removesHediff>BroodMotherIncubation</removesHediff>
     <surgerySuccessChanceFactor>100</surgerySuccessChanceFactor>
     <anesthetize>true</anesthetize>
     <successfullyRemovedHediffMessage>{0} has successfully aborted {1}'s incubation.</successfullyRemovedHediffMessage>
