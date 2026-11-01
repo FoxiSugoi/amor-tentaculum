@@ -41,21 +41,21 @@ A captured pawn, converted entirely into Amor Squirmer storage.  Immobile and no
 ### Amor Striker
 A combat-focused mass of tentacles, designed to latch on to and incapacitate hostile enemies with attacks to their genitalia.
 
-### Amor Assimilator
+### Amor Abductor
 A non-combat mass of tentacles, designed to target downed enemies and transport them to the hive as prisoners.  Can perform general hauling tasks as well.
 
-### Amor Sheath
+### Amor Grazer
 A non-combat mass of tentacles that can be butchered for tentacle meat (food) and the soft flesh leather substitute.  Essentially livestock.
 
-### Amor Drone
+### Amor Defender
 A combat-focused mass of tentacles, designed to protect the hive from external threats with powerful melee attacks.  Can also be trained to perform hauling tasks.
 
 ## Female Tentacles
 
-### Amor Warrior
+### Amor Hunter
 A combat-focused mass of tentacles, designed to protect the hive from external threats with debilitating ranged attacks.
 
-### Amor Constructor
+### Amor Producer
 A non-combat mass of tentacles that can be harvested for hard and soft resin resources (per normal animal mechanics) used to build other things.
 
 ### Amor Brewer
