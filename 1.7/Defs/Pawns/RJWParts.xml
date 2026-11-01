@@ -131,7 +131,7 @@
     <rjw.RaceGroupDef>
 		<defName>Internal</defName>
 		<raceNames>
-            <li>TInternal</li>
+            <li>TentacleSquirmer</li>
 		</raceNames>
 		
 		<anuses>
@@ -240,7 +240,7 @@
 		<defName>OvipositorTFSS</defName>
 		<label>lil tongue ovipositor</label>
 		<labelNoun>ovipositors</labelNoun>
-		<description>A retractable ovipositor that produces small eggs which hatch into Amor Internum.</description>
+		<description>A retractable ovipositor that produces small eggs which hatch into Amor Squirmer.</description>
 		<descriptionHyperlinks>
 			<ThingDef>OvipositorF</ThingDef>
 		</descriptionHyperlinks>
@@ -321,7 +321,7 @@
     <rjw.RaceGroupDef>
 		<defName>TentNoparts</defName>
 		<raceNames>
-            <li>TInternal</li>
+            <li>TentacleSquirmer</li>
 		</raceNames>
 		
 		<anuses>

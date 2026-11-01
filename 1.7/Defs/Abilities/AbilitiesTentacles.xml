@@ -2,14 +2,14 @@
 
 	<!-- Animal Abilities -->
 
-	<!-- Amor Internum Resource Abilities -->
+	<!-- Amor Squirmer Resource Abilities -->
 
 	<!-- Anal Insertion -->
 	
 	<AbilityDef ParentName="AbilityTouchBase">
 		<defName>TentacleUnbirth</defName>
 		<label>crawl inside</label>
-		<description>Commands the Amor Internum to crawl inside a Host, adding tentacle resources.</description>
+		<description>Commands the Amor Squirmer to crawl inside a Host, adding tentacle resources.</description>
 		<iconPath>Abilities/ButtVore</iconPath>
 		<category>Tentacle</category>
 		<displayGizmoWhileUndrafted>true</displayGizmoWhileUndrafted>

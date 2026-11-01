@@ -19,7 +19,7 @@
 		<!--If you have a GeneGizmo_Resource error, it's because you forgot this-->
 		<showGizmoOnWorldView>false</showGizmoOnWorldView>
 		<showGizmoWhenDrafted>true</showGizmoWhenDrafted>
-		<resourceDescription>The amount of Amor Internum tentacles currently stored inside the host's body.</resourceDescription>
+		<resourceDescription>The amount of Amor Squirmer tentacles currently stored inside the host's body.</resourceDescription>
 		<resourceLabel>tentacles</resourceLabel>
 		<modExtensions>
 			<li Class="EBSGFramework.DRGExtension">
@@ -50,7 +50,7 @@
 	<HediffDef>
 		<defName>NoTentacles</defName>
 		<label>body collapse</label>
-		<description>Due to the lack of tentacles in this host's body, they are collapsing in on themselves.  Replenish their Amor Internum capacity as soon as possible!</description>
+		<description>Due to the lack of tentacles in this host's body, they are collapsing in on themselves.  Replenish their Amor Squirmer capacity as soon as possible!</description>
 		<hediffClass>EBSGFramework.Hediff_ResourceCraving</hediffClass>
 		<defaultLabelColor>(0.6, 0.6, 0.6)</defaultLabelColor>
 		<initialSeverity>0.01</initialSeverity>

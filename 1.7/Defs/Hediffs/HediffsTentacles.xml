@@ -84,7 +84,7 @@
 		<stages />
 	</HediffDef>
 	
-	<!-- An hediff that can be applied to a tentacle (usually an Amor Internum) that will make its death silent (no letters) and not generate a corpse. -->
+	<!-- An hediff that can be applied to a tentacle (usually an Amor Squirmer) that will make its death silent (no letters) and not generate a corpse. -->
 	<HediffDef>
 		<defName>TentacleSacrifice</defName>
 		<hediffClass>HediffWithComps</hediffClass>

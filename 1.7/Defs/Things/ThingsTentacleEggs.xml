@@ -20,24 +20,24 @@
 	</ThingDef>
 		
 	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
-		<defName>AmorInternumEgg</defName>
-		<label>Amor Internum Egg</label>
-		<labelNoun>Amor Internum egg</labelNoun>
-		<description>An Amor Internum tentacle egg, growing inside the Tentacle.</description>
+		<defName>AmorSquirmerEgg</defName>
+		<label>Amor Squirmer Egg</label>
+		<labelNoun>Amor Squirmer egg</labelNoun>
+		<description>An Amor Squirmer tentacle egg, growing inside the Tentacle.</description>
 		<parentDefs>
 			<li>TentacleBroodMother</li>
 		</parentDefs>
 		<childrenDefs>
-			<li>TInternal</li>
+			<li>TentacleSquirmer</li>
 		</childrenDefs>
-		<UnFertEggDef>AmorInternumEggUnfert</UnFertEggDef>
-		<FertEggDef>AmorInternumEggFert</FertEggDef>
+		<UnFertEggDef>AmorSquirmerEggUnfert</UnFertEggDef>
+		<FertEggDef>AmorSquirmerEggFert</FertEggDef>
 	</rjw.HediffDef_InsectEgg>
 
 	<ThingDef ParentName="EggImplantFertBase">
-		<defName>AmorInternumEggFert</defName>
-		<label>Amor Internum Egg (fert.)</label>
-		<description>A fertilized Amor Internum tentacle egg.</description>
+		<defName>AmorSquirmerEggFert</defName>
+		<label>Amor Squirmer Egg (fert.)</label>
+		<description>A fertilized Amor Squirmer tentacle egg.</description>
 		<graphicData>
 			<color>(203,20,227)</color>
 		</graphicData>
@@ -47,7 +47,7 @@
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>0.5</hatcherDaystoHatch>
-				<hatcherPawn>TInternal</hatcherPawn>
+				<hatcherPawn>TentacleSquirmer</hatcherPawn>
 			</li>
 			<li Class="CompProperties_Glower">
 				<glowRadius>2</glowRadius>
@@ -57,9 +57,9 @@
 	</ThingDef>
 
 	<ThingDef ParentName="EggImplantUnfertBase">
-		<defName>AmorInternumEggUnfert</defName>
-		<label>Amor Internum Egg (unfert.)</label>
-		<description>An unfertilized Amor Internum tentacle egg.</description>
+		<defName>AmorSquirmerEggUnfert</defName>
+		<label>Amor Squirmer Egg (unfert.)</label>
+		<description>An unfertilized Amor Squirmer tentacle egg.</description>
 		<graphicData>
 			<color>(203,125,227)</color>
 		</graphicData>

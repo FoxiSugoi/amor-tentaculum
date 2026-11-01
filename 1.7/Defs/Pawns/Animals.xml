@@ -788,9 +788,9 @@
 
 
   <PawnKindDef ParentName="AnimalKindBase">
-    <defName>TInternal</defName>
-    <label>Amor Internum</label>
-    <race>TInternal</race>
+    <defName>TentacleSquirmer</defName>
+    <label>Amor Squirmer</label>
+    <race>TentacleSquirmer</race>
     <forceNoDeathNotification>true</forceNoDeathNotification>
     <combatPower>5</combatPower>
     <ecoSystemWeight>0.75</ecoSystemWeight>
@@ -832,10 +832,10 @@
   </PawnKindDef>
 
    <ThingDef ParentName="AnimalThingBase">
-    <defName>TInternal</defName>
-    <label>Amor Internum</label>
+    <defName>TentacleSquirmer</defName>
+    <label>Amor Squirmer</label>
     <devNote>misc</devNote>
-    <description>A long snake like amor tentacle ment to live inside host bodies. Freeze's to death easily when not inside it's native habitat.</description>
+    <description>A long snake-like tentacle meant to live inside Host bodies. Freezes to death easily when not inside its native habitat.</description>
     <statBases>
       <MoveSpeed>2.5</MoveSpeed>
       <MarketValue>50</MarketValue>

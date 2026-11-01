@@ -45,7 +45,7 @@
 		<label>Amor Queen</label>
 		<displayCategory>HiddenTentacleGenes</displayCategory>
 		<geneClass>EBSGFramework.HediffAdder</geneClass>
-		<description>Carriers of this gene have a body that has been turned into a holding vessel for Amor Internum tentacles and a breeding nest for Amor Brood Mother eggs.</description>
+		<description>Carriers of this gene have a body that has been turned into a holding vessel for Amor Squirmer tentacles and a breeding nest for Amor Brood Mother eggs.</description>
 		<displayOrderInCategory>0.1</displayOrderInCategory>
 		<abilities>
 			<li>TentacleIngest</li>

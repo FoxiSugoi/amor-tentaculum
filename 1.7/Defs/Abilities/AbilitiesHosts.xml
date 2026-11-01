@@ -8,7 +8,7 @@
 	<AbilityDef ParentName="AbilityTouchBase">
 		<defName>TentacleIngest</defName>
 		<label>Ingest tentacle</label>
-		<description>Ingests the selected Amor Internum.</description>
+		<description>Ingests the selected Amor Squirmer.</description>
 		<iconPath>Abilities/ButtVore</iconPath>
 		<category>Tentacle</category>
 		<targetRequired>True</targetRequired>
@@ -67,7 +67,7 @@
 	<AbilityDef ParentName="AbilityTouchBase">
 		<defName>TentacleExpel</defName>
 		<label>Expel tentacle</label>
-		<description>Expels an Amor Internum tentacle from the Host.\n\nWARNING: This is dangerous if the pawn runs out of stored tentacles!</description>
+		<description>Expels an Amor Squirmer tentacle from the Host.\n\nWARNING: This is dangerous if the pawn runs out of stored tentacles!</description>
 		<iconPath>Abilities/ButtVore</iconPath>
 		<category>Tentacle</category>
 		<cooldownTicksRange>5</cooldownTicksRange>
@@ -97,7 +97,7 @@
 				<fleckDef>Mote_NoHeart</fleckDef>
 			</li>
 			<li Class="EBSGFramework.CompProperties_AbilitySpawnPawnKind">
-				<pawnKind>TInternal</pawnKind>
+				<pawnKind>TentacleSquirmer</pawnKind>
 				<count>1</count>
 				<inCreatorFaction>True</inCreatorFaction>
 			</li>
@@ -108,7 +108,7 @@
 	<AbilityDef ParentName="AbilityTouchBase">
 		<defName>TentacleTransfer</defName>
 		<label>Transfer tentacle</label>
-		<description>Transfer an Amor Internum tentacle from one Host to another.  With a sloppy kiss.\n\nWARNING: This is dangerous if the pawn runs out of stored tentacles!</description>
+		<description>Transfer an Amor Squirmer tentacle from one Host to another.  With a sloppy kiss.\n\nWARNING: This is dangerous if the pawn runs out of stored tentacles!</description>
 		<iconPath>Abilities/MouthVore</iconPath>
 		<category>Tentacle</category>
 		<cooldownTicksRange>5</cooldownTicksRange>

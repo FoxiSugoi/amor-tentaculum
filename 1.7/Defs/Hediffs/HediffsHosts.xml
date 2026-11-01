@@ -226,9 +226,9 @@
 
 	<HediffDef>
 		<defName>TentacleStorage</defName>
-		<description>Amor Internum tentacles are living inside the Host's body. Over time, they will increase the movement, regeneration, and psychic sensitivity of the Host.</description>
+		<description>Amor Squirmer tentacles are living inside the Host's body. Over time, they will increase the movement, regeneration, and psychic sensitivity of the Host.</description>
 		<label>Tentacle storage</label>
-		<labelNoun>Amor Internum</labelNoun>
+		<labelNoun>Amor Squirmer</labelNoun>
 		<hediffClass>HediffWithComps</hediffClass>
 		<defaultLabelColor>(203,120,227)</defaultLabelColor>
 		<minSeverity>1</minSeverity>

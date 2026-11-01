@@ -194,7 +194,7 @@
 			<li>TMatron</li>		
 		</parentDefs>
 		<childrenDefs>	 							<!-- list of pawnkinds to spawn from/ doesn't match implanter egg type(RJW_InsectEgg) =( , maybe needs self-fertilized eggs or something-->
-			<li>TInternal</li>
+			<li>TentacleSquirmer</li>
 		</childrenDefs>
     <UnFertEggDef>SmallTEggUnfert</UnFertEggDef>
 		<FertEggDef>SmallTEggFert</FertEggDef>
@@ -213,7 +213,7 @@
 		<comps>
 			<li Class="CompProperties_Hatcher">
 				<hatcherDaystoHatch>0.5</hatcherDaystoHatch>
-				<hatcherPawn>TInternal</hatcherPawn>
+				<hatcherPawn>TentacleSquirmer</hatcherPawn>
 			</li>
       <li Class="CompProperties_Glower">
 				<glowRadius>2</glowRadius>

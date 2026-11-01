@@ -27,14 +27,14 @@ Recommended Mods (never required, but provide useful things to suppliment a tent
 
 ## Neutral Tentacles
 
-### Amor Internum
+### Amor Squirmer
 The most basic type of tentacle. Mindless, writing, and not able to survive outside of a host body.  Primarily used as a resource for pawn and animal abilities.
 
 ### Amor Larva
 A newly-born tentacle that can be triggered to grow into one of several different types of mature tentacles once it has reached sufficient age.
 
 ### Amor Womb
-A captured pawn, converted entirely into Amor Internum storage.  Immobile and no longer useful as a pawn, but provides extra Amor Internum storage for the colony.
+A captured pawn, converted entirely into Amor Squirmer storage.  Immobile and no longer useful as a pawn, but provides extra Amor Squirmer storage for the colony.
 
 ## Male Tentacles
 
@@ -62,7 +62,7 @@ A non-combat mass of tentacles that can be harvested for hard and soft resin res
 A non-combat mass of tentacles that produces drugs and chemicals regularly.  Can be switched between various production targets.
 
 ### Amor Spawner
-A non-combat mass of tentacles, designed to help grow Amor Internum tentacles to empower Amor hosts' abilities.  Grows and lays Amor Internum eggs.
+A non-combat mass of tentacles, designed to help grow Amor Squirmers to empower Amor Hosts' abilities.  Grows and lays Amor Squirmer eggs.
 
 ### Amor Brood Mother
 A non-combat mass of tentacles that focuses entirely on incubating and laying Amor Larva eggs, which will eventually grow into other types of tentacles.  Has combat abilities, but due to its essential nature to the hive, should not engage in combat unless necessary.
@@ -72,16 +72,16 @@ A non-combat mass of tentacles that focuses entirely on incubating and laying Am
 ## Male Hosts
 
 ### Amor Servant
-A male host specialized for labor and crafting.  Minimal combat potential, but can be used to store Amor Internum for use by other host pawns.
+A male host specialized for labor and crafting.  Minimal combat potential, but can be used to store Amor Squirmers for use by other host pawns.
 
 ### Amor Knight
-A male host specialized for melee combat, at the cost of intelligence and work proficiency.  Uses stored Amor Internum to power its abilities.
+A male host specialized for melee combat, at the cost of intelligence and work proficiency.  Uses stored Amor Squirmers to power its abilities.
 
 ### Amor Rogue
-A male host specialized for stealth and reconnaissance.  Minimal combat potential, but naturally difficult to see and can become mostly invisible for a short time.  Uses stored Amor Internum to power its abilities.
+A male host specialized for stealth and reconnaissance.  Minimal combat potential, but naturally difficult to see and can become mostly invisible for a short time.  Uses stored Amor Squirmers to power its abilities.
 
 ### Amor Baron
-A male host specialized for defense, providing buffs to other host and tentacle pawns.  Can act as supplementary storage for Amor Internum.  Uses stored Amor Internum to power its abilities.
+A male host specialized for defense, providing buffs to other host and tentacle pawns.  Can act as supplementary storage for Amor Squirmers.  Uses stored Amor Squirmers to power its abilities.
 
 ## Female Hosts
 
@@ -89,7 +89,7 @@ A male host specialized for defense, providing buffs to other host and tentacle 
 A female host specialized for seducing and placating other pawns.  Can convert infected pawns into immobile Amor Wombs.
 
 ### Amor Baroness
-A female host specialized to carry Amor Internum for use by other host pawns.
+A female host specialized to carry Amor Squirmers for use by other host pawns.
 
 ### Amor Queen
 The strongest of the female host types.  Grows and lays Amor Brood Mother eggs to help the hive reproduce. She also produces Tentacle Slime, which is a key crafting material.  This Host type provides the foundational materials for growing your colony - protect her at all costs!
@@ -158,30 +158,30 @@ A chestpiece forged from hard tentacle resin.  Provides excellent protection aga
 A helmet forged from hard tentacle resin.  Provides excellent protection against blunt and sharp damage.
 
 ### Powered Tentacle Armor
-A full-body suit of powered armor with a full neural interface connecting to the tentacles within the host.  Provides superior protection against all damage types.  Sealed against vaccuum and toxic environments and heavily resistant to fire.  Has auxillary storage for Amor Internum that can be transferred to the host should they run low.
+A full-body suit of powered armor with a full neural interface connecting to the tentacles within the host.  Provides superior protection against all damage types.  Sealed against vaccuum and toxic environments and heavily resistant to fire.  Has auxillary storage for Amor Squirmers that can be transferred to the host should they run low.
 
 ### Powered Tentacle Helmet
-A full-head helmet with a neural interface connecting to the tentacles within the host.  Provides superior protection against all damage types.  Sealed against vaccuum and toxic environments and heavily resistant to fire.  Has auxillary storage for Amor Internum that can be transferred to the host should they run low.
+A full-head helmet with a neural interface connecting to the tentacles within the host.  Provides superior protection against all damage types.  Sealed against vaccuum and toxic environments and heavily resistant to fire.  Has auxillary storage for Amor Squirmers that can be transferred to the host should they run low.
 
 # Implants
 
-## Amor Internum Host Implants
+## Amor Squirmer Host Implants
 
 ### Uterine Growth Implant (Larva)
 Increases the incubation rate of Amor Larva eggs.  Only works on Amor Brood Mothers.
 
-### Uterine Growh Implant (Internum)
-Increases the incubation rate of Amor Internum eggs.  Only works on Amor Queens.
+### Uterine Growh Implant (Squirmer)
+Increases the incubation rate of Amor Squirmer eggs.  Only works on Amor Spawners.
 
 ## Amor Tentacle Incubation Implants
 
 ## Amor Host Incubation Implants
 
 ### Anal Speculum Implant
-A plasteel implant that stretches the host's anus, allowing more capacity for Amor Internum storage.
+A plasteel implant that stretches the host's anus, allowing more capacity for Amor Squirmer storage.
 
 ### Stomach Storage Implant
-An advanced implant that replaces the host's stomach completely. The Amor Internum tentacles that live there will handle the host's digestive processes, which frees up room for additional Amor Internum storage capacity.
+An advanced implant that replaces the host's stomach completely. The Amor Squirmer tentacles that live there will handle the host's digestive processes, which frees up room for additional Amor Squirmer storage capacity.
 
 ### Uterine Growth Implant (Queen)
 Increases the incubation rate of Amor Brood Mother eggs.  Only works on Amor Queens.
@@ -222,7 +222,7 @@ Approaches the target pawn and attempts to seduce them.  If successful, the targ
 ## Create Amor Womb
 Usable by Amor Nymphs.  Only works on pawns that are affected by a Seduction Kiss.
 
-Injects the target pawn with a resinous toxin, which will convert them into an immobile Amor Womb.  The Amor Womb will then be able to store Amor Internum for use by other pawns.
+Injects the target pawn with a resinous toxin, which will convert them into an immobile Amor Womb.  The Amor Womb will then be able to store Amor Squirmers for use by other pawns.
 
 # Original Mod Description:
 Rimworld Tentacle Mod
