@@ -25,7 +25,7 @@
 		<labelNoun>Amor Squirmer egg</labelNoun>
 		<description>An Amor Squirmer tentacle egg, growing inside the Tentacle.</description>
 		<parentDefs>
-			<li>TentacleBroodMother</li>
+			<li>TentacleSpawner</li>
 		</parentDefs>
 		<childrenDefs>
 			<li>TentacleSquirmer</li>
@@ -60,6 +60,61 @@
 		<defName>AmorSquirmerEggUnfert</defName>
 		<label>Amor Squirmer Egg (unfert.)</label>
 		<description>An unfertilized Amor Squirmer tentacle egg.</description>
+		<graphicData>
+			<color>(203,125,227)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>1.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(203,125,227)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<rjw.HediffDef_InsectEgg ParentName="RJW_ImplantEgg">
+		<defName>AmorLarvaEgg</defName>
+		<label>Amor Larva Egg</label>
+		<labelNoun>Amor Larva egg</labelNoun>
+		<description>An Amor Larva tentacle egg, growing inside the Tentacle.</description>
+		<parentDefs>
+			<li>TentacleBroodMother</li>
+		</parentDefs>
+		<childrenDefs>
+			<li>TentacleLarva</li>
+		</childrenDefs>
+		<UnFertEggDef>AmorLarvaEggUnfert</UnFertEggDef>
+		<FertEggDef>AmorLarvaEggFert</FertEggDef>
+	</rjw.HediffDef_InsectEgg>
+
+	<ThingDef ParentName="EggImplantFertBase">
+		<defName>AmorLarvaEggFert</defName>
+		<label>Amor Larva Egg (fert.)</label>
+		<description>A fertilized Amor Larva tentacle egg.</description>
+		<graphicData>
+			<color>(203,20,227)</color>
+		</graphicData>
+		<statBases>
+			<MarketValue>10.0</MarketValue>
+		</statBases>
+		<comps>
+			<li Class="CompProperties_Hatcher">
+				<hatcherDaystoHatch>0.5</hatcherDaystoHatch>
+				<hatcherPawn>TentacleLarva</hatcherPawn>
+			</li>
+			<li Class="CompProperties_Glower">
+				<glowRadius>2</glowRadius>
+				<glowColor>(203,20,227)</glowColor>
+			</li>
+		</comps>
+	</ThingDef>
+
+	<ThingDef ParentName="EggImplantUnfertBase">
+		<defName>AmorLarvaEggUnfert</defName>
+		<label>Amor Larva Egg (unfert.)</label>
+		<description>An unfertilized Amor Larva tentacle egg.</description>
 		<graphicData>
 			<color>(203,125,227)</color>
 		</graphicData>

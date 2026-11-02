@@ -154,4 +154,256 @@
 		-->
 	</PawnKindDef>
 
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>TentacleSquirmer</defName>
+		<label>Amor Squirmer</label>
+		<race>TentacleSquirmer</race>
+		<forceNoDeathNotification>true</forceNoDeathNotification>
+		<combatPower>5</combatPower>
+		<ecoSystemWeight>0.75</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/Internal/Internal</texPath>
+					<drawSize>0.5</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>0.5</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/Internal/Internal</texPath>
+					<drawSize>0.7</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>0.7</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/Internal/Internal</texPath>
+					<drawSize>0.9</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>0.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+		<abilities>
+			<li>TentacleUnbirth</li>
+		</abilities>
+	</PawnKindDef>
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>TentacleSquirmer</defName>
+		<label>Amor Squirmer</label>
+		<devNote>misc</devNote>
+		<description>A long snake-like tentacle meant to live inside Host bodies. Freezes to death easily when not inside its native habitat.</description>
+		<statBases>
+			<MoveSpeed>2.5</MoveSpeed>
+			<MarketValue>50</MarketValue>
+			<ComfyTemperatureMin>34</ComfyTemperatureMin>
+			<ComfyTemperatureMax>100</ComfyTemperatureMax>
+			<Wildness>0</Wildness>
+		</statBases>
+		<uiIconScale>1.1</uiIconScale>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>1</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.CompProperties_FixedGender">
+				<gender>None</gender>
+			</li>
+			<li Class="VEF.AnimalBehaviours.CompProperties_InitialHediff">
+				<hediffname>vagrancy</hediffname>
+				<hediffseverity>1</hediffseverity>
+			</li>
+			<li Class="VEF.AnimalBehaviours.CompProperties_Draftable">
+			</li>
+		</comps>
+
+		<race>
+			<body>Snake</body>
+			<predator>true</predator>
+			<maxPreyBodySize>700</maxPreyBodySize>
+			<baseBodySize>0.04</baseBodySize>
+			<baseHungerRate>0.01</baseHungerRate>
+			<baseHealthScale>0.5</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>LeatherTentacle</leatherDef>
+			<meatLabel>tentacle meat</meatLabel>
+			<trainability>None</trainability>
+			<petness>0.05</petness>
+			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+			<nameOnTameChance>0</nameOnTameChance>
+			<lifeExpectancy>1</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.05</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.12</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundEating>Reptile_Eat</soundEating>
+			<headPosPerRotation>
+				<li>(-0.03, 0, 0.35)</li>
+				<li>(0.03, 0, 0.36)</li>
+				<li>(-0.05, 0, 0.28)</li>
+				<li>(-0.03, 0, 0.36)</li>
+			</headPosPerRotation>
+		</race>
+		<tradeTags />
+	</ThingDef>
+
+	<PawnKindDef ParentName="AnimalKindBase">
+		<defName>TentacleLarva</defName>
+		<label>Amor Larva</label>
+		<race>TentacleLarva</race>
+		<forceNoDeathNotification>true</forceNoDeathNotification>
+		<combatPower>5</combatPower>
+		<ecoSystemWeight>0.75</ecoSystemWeight>
+		<lifeStages>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/Larva/Larva</texPath>
+					<drawSize>0.8</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>0.8</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/Larva/Larva</texPath>
+					<drawSize>0.9</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>0.9</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+			<li>
+				<bodyGraphicData>
+					<texPath>Things/Pawns/Larva/Larva</texPath>
+					<drawSize>1.0</drawSize>
+				</bodyGraphicData>
+				<dessicatedBodyGraphicData>
+					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
+					<drawSize>1.0</drawSize>
+				</dessicatedBodyGraphicData>
+			</li>
+		</lifeStages>
+		<!-- TODO: Add evolution abilities here. -->
+		<abilities />
+	</PawnKindDef>
+
+	<ThingDef ParentName="AnimalThingBase">
+		<defName>TentacleLarva</defName>
+		<label>Amor Larva</label>
+		<devNote>misc</devNote>
+		<description>A small Tentacle in larval form. Doesn't serve any purpose besides evolving into more-advanced Tentacle forms. Research will unlock more advanced forms to choose from.</description>
+		<statBases>
+			<MoveSpeed>0.5</MoveSpeed>
+			<MarketValue>100</MarketValue>
+			<ComfyTemperatureMin>0</ComfyTemperatureMin>
+			<ComfyTemperatureMax>90</ComfyTemperatureMax>
+			<Wildness>0</Wildness>
+		</statBases>
+		<uiIconScale>1.1</uiIconScale>
+		<tools>
+			<li>
+				<label>head</label>
+				<capacities>
+					<li>Blunt</li>
+				</capacities>
+				<power>3</power>
+				<cooldownTime>2</cooldownTime>
+				<linkedBodyPartsGroup>HeadAttackTool</linkedBodyPartsGroup>
+				<ensureLinkedBodyPartsGroupAlwaysUsable>true</ensureLinkedBodyPartsGroupAlwaysUsable>
+				<chanceFactor>0.2</chanceFactor>
+			</li>
+		</tools>
+		<comps>
+			<li Class="VEF.AnimalBehaviours.CompProperties_FixedGender">
+				<gender>None</gender>
+			</li>
+		</comps>
+
+		<race>
+			<body>Snake</body>
+			<predator>false</predator>
+			<baseBodySize>0.07</baseBodySize>
+			<baseHungerRate>0.02</baseHungerRate>
+			<baseHealthScale>0.5</baseHealthScale>
+			<foodType>CarnivoreAnimal, OvivoreAnimal</foodType>
+			<leatherDef>LeatherTentacle</leatherDef>
+			<meatLabel>tentacle meat</meatLabel>
+			<trainability>None</trainability>
+			<petness>0.05</petness>
+			<manhunterOnTameFailChance>0</manhunterOnTameFailChance>
+			<manhunterOnDamageChance>0.50</manhunterOnDamageChance>
+			<nameOnTameChance>0</nameOnTameChance>
+			<lifeExpectancy>10</lifeExpectancy>
+			<lifeStageAges>
+				<li>
+					<def>AnimalBaby</def>
+					<minAge>0</minAge>
+				</li>
+				<li>
+					<def>AnimalJuvenile</def>
+					<minAge>0.1</minAge>
+				</li>
+				<li>
+					<def>AnimalAdult</def>
+					<minAge>0.2</minAge>
+					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
+					<soundDeath>Pawn_Cobra_Death</soundDeath>
+					<soundCall>Pawn_Cobra_Call</soundCall>
+					<soundAngry>Pawn_Cobra_Angry</soundAngry>
+				</li>
+			</lifeStageAges>
+			<soundMeleeHitPawn>Pawn_Melee_SmallScratch_HitPawn</soundMeleeHitPawn>
+			<soundMeleeHitBuilding>Pawn_Melee_SmallScratch_HitBuilding</soundMeleeHitBuilding>
+			<soundMeleeMiss>Pawn_Melee_SmallScratch_Miss</soundMeleeMiss>
+			<soundEating>Reptile_Eat</soundEating>
+			<headPosPerRotation>
+				<li>(-0.03, 0, 0.35)</li>
+				<li>(0.03, 0, 0.36)</li>
+				<li>(-0.05, 0, 0.28)</li>
+				<li>(-0.03, 0, 0.36)</li>
+			</headPosPerRotation>
+		</race>
+		<tradeTags />
+	</ThingDef>
+
 </Defs>
