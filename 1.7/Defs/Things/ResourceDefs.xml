@@ -8,6 +8,9 @@
 			<color>(235,205,180)</color>
 			<colorTwo>(235,235,235)</colorTwo>
 		</graphicData>
+		<generateCommonality>0</generateCommonality>
+        <generateAllowChance>0</generateAllowChance>
+        <tradeability>Sellable</tradeability>
 		<statBases>
 			<MarketValue>1.5</MarketValue>
 			<StuffPower_Armor_Sharp>0.05</StuffPower_Armor_Sharp>
@@ -17,7 +20,7 @@
 		</statBases>
 		<stuffProps>
 			<color>(235,205,180)</color>
-			<commonality>0.001</commonality>
+			<commonality>0.0001</commonality>
 			<statFactors>
 				<MaxHitPoints>0.5</MaxHitPoints>
 				<Beauty>2.5</Beauty>
@@ -44,6 +47,7 @@
 		</graphicData>
 		<possessionCount>50</possessionCount>
 		<socialPropernessMatters>true</socialPropernessMatters>
+                                    <tradeability>Sellable</tradeability>
 		<statBases>
 			<MarketValue>5.0</MarketValue>
 			<Mass>0.025</Mass>
