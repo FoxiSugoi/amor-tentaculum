@@ -5,6 +5,7 @@
 		<label>Amor Brood Mother</label>
 		<devNote>misc</devNote>
 		<description>A huge, female mass of tentacles dedicated to breeding. The Amor Brood Mother is the largest of the Tentacle types, and produces vast amounts of Amor Larvae. Those Larvae can then be converted into other Tentacle types.</description>
+                                    <tradeability>None</tradeability>
 		<statBases>
 			<MoveSpeed>6</MoveSpeed>
 			<MarketValue>950</MarketValue>
@@ -164,7 +165,7 @@
 		<lifeStages>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawns/Internal/Internal</texPath>
+					<texPath>Things/Pawns/Squirmer/Squirmer</texPath>
 					<drawSize>0.5</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -174,7 +175,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawns/Internal/Internal</texPath>
+					<texPath>Things/Pawns/Squirmer/Squirmer</texPath>
 					<drawSize>0.7</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -184,7 +185,7 @@
 			</li>
 			<li>
 				<bodyGraphicData>
-					<texPath>Things/Pawns/Internal/Internal</texPath>
+					<texPath>Things/Pawns/Squirmer/Squirmer</texPath>
 					<drawSize>0.9</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -203,6 +204,7 @@
 		<label>Amor Squirmer</label>
 		<devNote>misc</devNote>
 		<description>A long snake-like tentacle meant to live inside Host bodies. Freezes to death easily when not inside its native habitat.</description>
+                                    <tradeability>None</tradeability>
 		<statBases>
 			<MoveSpeed>2.5</MoveSpeed>
 			<MarketValue>50</MarketValue>
@@ -332,6 +334,7 @@
 		<label>Amor Larva</label>
 		<devNote>misc</devNote>
 		<description>A small Tentacle in larval form. Doesn't serve any purpose besides evolving into more-advanced Tentacle forms. Research will unlock more advanced forms to choose from.</description>
+                                    <tradeability>None</tradeability>
 		<statBases>
 			<MoveSpeed>0.5</MoveSpeed>
 			<MarketValue>100</MarketValue>
