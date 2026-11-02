@@ -327,6 +327,7 @@
 		<minSeverity>0.001</minSeverity>
 		<initialSeverity>0.001</initialSeverity>
 		<maxSeverity>1</maxSeverity>
+		<keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
 		<stages>
 			<li>
 				<minSeverity>0.001</minSeverity>
@@ -388,6 +389,7 @@
 		<minSeverity>0.001</minSeverity>
 		<initialSeverity>0.001</initialSeverity>
 		<maxSeverity>1</maxSeverity>
+		<keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
 		<stages>
 			<li>
 				<minSeverity>0.001</minSeverity>
@@ -460,6 +462,7 @@
 		<minSeverity>0.001</minSeverity>
 		<initialSeverity>0.001</initialSeverity>
 		<maxSeverity>1</maxSeverity>
+		<keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
 		<stages>
 			<li>
 				<minSeverity>0.001</minSeverity>
