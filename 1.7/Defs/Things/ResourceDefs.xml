@@ -47,7 +47,7 @@
 		</graphicData>
 		<possessionCount>50</possessionCount>
 		<socialPropernessMatters>true</socialPropernessMatters>
-                                    <tradeability>Sellable</tradeability>
+        <tradeability>Sellable</tradeability>
 		<statBases>
 			<MarketValue>5.0</MarketValue>
 			<Mass>0.025</Mass>
