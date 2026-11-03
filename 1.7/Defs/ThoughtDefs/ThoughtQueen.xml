@@ -1,6 +1,6 @@
 <Defs>
  <ThoughtDef>
-    <defName>broodmothertought</defName>
+    <defName>QueenEggIncubationThought</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>QueenEggIncubation</hediff>
     <stackLimit>1</stackLimit>
@@ -66,7 +66,7 @@
   </ThoughtDef>
 
   <ThoughtDef>
-    <defName>broodmothertoughtliked</defName>
+    <defName>QueenEggIncubationThoughtLiked</defName>
     <workerClass>ThoughtWorker_Hediff</workerClass>
     <hediff>QueenEggIncubation</hediff>
     <stackLimit>1</stackLimit>

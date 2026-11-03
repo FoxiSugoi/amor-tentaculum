@@ -20,6 +20,7 @@
     <equippedAngleOffset>-150</equippedAngleOffset>
     <rotatable>false</rotatable>
     <stackLimit>25</stackLimit>
+    <tradeability>Sellable</tradeability>
     <statBases>
       <DeteriorationRate>0.5</DeteriorationRate>
       <MarketValue>12</MarketValue>

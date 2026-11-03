@@ -234,6 +234,7 @@
 		<minSeverity>1</minSeverity>
 		<initialSeverity>1</initialSeverity>
 		<maxSeverity>100</maxSeverity>
+		<keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
@@ -301,6 +302,7 @@
 		<defaultLabelColor>(203,120,227)</defaultLabelColor>
 		<everCurableByItem>false</everCurableByItem>
 		<initialSeverity>0.001</initialSeverity>
+		<keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
 		<stages />
 		<hediffClass>HediffWithComps</hediffClass>
 		<scenarioCanAdd>false</scenarioCanAdd>
@@ -367,6 +369,7 @@
 		<minSeverity>1</minSeverity>
 		<initialSeverity>1</initialSeverity>
 		<maxSeverity>5</maxSeverity>
+		<keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>
@@ -503,6 +506,7 @@
 		<minSeverity>1</minSeverity>
 		<initialSeverity>1</initialSeverity>
 		<maxSeverity>5</maxSeverity>
+		<keepOnBodyPartRestoration>True</keepOnBodyPartRestoration>
 		<stages>
 			<li>
 				<minSeverity>1</minSeverity>

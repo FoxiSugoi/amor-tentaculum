@@ -8,6 +8,7 @@
 		<graphicData>
 			<texPath>Things/Items/HugeEgg</texPath>
 		</graphicData>
+		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>50.0</MarketValue>
 		</statBases>
@@ -41,6 +42,7 @@
 		<graphicData>
 			<color>(203,20,227)</color>
 		</graphicData>
+		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>10.0</MarketValue>
 		</statBases>
@@ -63,6 +65,7 @@
 		<graphicData>
 			<color>(203,125,227)</color>
 		</graphicData>
+		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>1.0</MarketValue>
 		</statBases>
@@ -96,6 +99,7 @@
 		<graphicData>
 			<color>(203,20,227)</color>
 		</graphicData>
+		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>10.0</MarketValue>
 		</statBases>
@@ -118,6 +122,7 @@
 		<graphicData>
 			<color>(203,125,227)</color>
 		</graphicData>
+		<tradeability>None</tradeability>
 		<statBases>
 			<MarketValue>1.0</MarketValue>
 		</statBases>

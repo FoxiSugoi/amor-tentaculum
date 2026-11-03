@@ -15,6 +15,7 @@
 		<rotatable>false</rotatable>
 		<stackLimit>10</stackLimit>
 		<uiIconScale>0.75</uiIconScale>
+		<tradeability>Sellable</tradeability>
 		<statBases>
 			<WorkToMake>500</WorkToMake>
 			<MarketValue>600</MarketValue>

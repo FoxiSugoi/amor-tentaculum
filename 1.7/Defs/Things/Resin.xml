@@ -10,6 +10,9 @@
     </graphicData>
     <soundInteract>Wood_Drop</soundInteract>
     <soundDrop>Wood_Drop</soundDrop>
+    <tradeability>Sellable</tradeability>
+    <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0</generateAllowChance>
     <statBases>
       <MarketValue>1.2</MarketValue>
       <MaxHitPoints>150</MaxHitPoints>
@@ -32,7 +35,7 @@
       <categories>
         <li>Woody</li>
       </categories>
-      <commonality>1.00</commonality>
+      <commonality>0.0001</commonality>
       <color>(203,180,227)</color>
       <constructEffect>ConstructWood</constructEffect>
       <appearance>Planks</appearance>
@@ -73,6 +76,9 @@
     <soundDrop>Metal_Drop</soundDrop>
     <useHitPoints>false</useHitPoints>
     <healthAffectsPrice>false</healthAffectsPrice>
+    <tradeability>Sellable</tradeability>
+    <generateCommonality>0</generateCommonality>
+    <generateAllowChance>0</generateAllowChance>
     <statBases>
       <MarketValue>9</MarketValue>
       <Mass>0.2</Mass>
@@ -92,7 +98,7 @@
         <li>Metallic</li>
       </categories>
       <appearance>Metal</appearance>
-      <commonality>0.05</commonality>
+      <commonality>0.0001</commonality>
       <constructEffect>ConstructMetal</constructEffect>
       <color>(203,45,227)</color>
       <soundImpactBullet>BulletImpact_Metal</soundImpactBullet>
