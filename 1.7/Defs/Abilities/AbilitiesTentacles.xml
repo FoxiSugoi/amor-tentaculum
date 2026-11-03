@@ -4,7 +4,7 @@
 
 	<!-- Amor Squirmer Resource Abilities -->
 
-	<!-- Anal Insertion -->
+	<!-- Manually-Targeted Insertion -->
 	
 	<AbilityDef ParentName="AbilityTouchBase">
 		<defName>TentacleUnbirth</defName>
@@ -73,5 +73,132 @@
 			</li>
 		</comps>
 	</AbilityDef>
-	
+
+	<AbilityDef>
+		<defName>LarvaEvolveSquirmer</defName>
+		<label>evolve into squirmers</label>
+		<description>Evolve the Larva into a small handful of Squirmers. Inefficient, but if you need some and don't have Spawners available...</description>
+		<iconPath>Abilities/OviVag</iconPath>
+		<jobDef>CastAbilityOnThing</jobDef>
+		<targetRequired>False</targetRequired>
+		<canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+		<category>Tentacle</category>
+		<stunTargetWhileCasting>True</stunTargetWhileCasting>
+		<showPsycastEffects>False</showPsycastEffects>
+		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<cooldownTicksRange>60</cooldownTicksRange>
+		<hostile>false</hostile>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<jobDef>CastAbilityOnThing</jobDef>
+		<targetRequired>False</targetRequired>
+		<stunTargetWhileCasting>True</stunTargetWhileCasting>
+		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>999</range>
+			<warmupTime>2.5</warmupTime>
+			<drawAimPie>False</drawAimPie>
+			<soundCast>AcidSpray_Resolve</soundCast>
+			<requireLineOfSight>False</requireLineOfSight>
+			<targetParams>
+				<canTargetLocations>false</canTargetLocations>
+				<canTargetPawns>false</canTargetPawns>
+				<canTargetAnimals>false</canTargetAnimals>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetHumans>false</canTargetHumans>
+				<canTargetEntities>false</canTargetEntities>
+				<canTargetSubhumans>false</canTargetSubhumans>
+				<canTargetMechs>false</canTargetMechs>
+				<canTargetSelf>true</canTargetSelf>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AmorTentaculum.CompProperties_ExtendedAbilityValidator">
+				<requiredResearchProjects>
+					<li>ATCore</li>
+				</requiredResearchProjects>
+				<casterHasAnyOfHediffs>
+					<li>ReadyToEvolve</li>
+				</casterHasAnyOfHediffs>
+				<hideGizmo>false</hideGizmo>
+			</li>
+			<li Class="EBSGFramework.CompProperties_AbilityGiveMultipleHediffs">
+				<hediffsToGive>
+					<li>
+						<hediffDef>LarvaEvolveSquirmer</hediffDef>
+						<applyToSelf>true</applyToSelf>
+						<replaceExisting>false</replaceExisting>
+						<severity>0.001</severity>
+					</li>
+				</hediffsToGive>
+			</li>
+			<li Class="EBSGFramework.CompProperties_AbilityRemoveMultipleHediffs">
+				<compClass>EBSGFramework.CompAbilityEffect_RemoveMultipleHediffs</compClass>
+				<hediffs>
+					<li>ReadyToEvolve</li>
+				</hediffs>
+			</li>
+			<li Class="CompProperties_AbilityFleckOnTarget">
+				<fleckDef>Heart</fleckDef>
+			</li>
+		</comps>
+	</AbilityDef>
+
+	<AbilityDef>
+		<defName>LarvaEvolveSpawner</defName>
+		<label>evolve into spawner</label>
+		<description>Evolve the Larva into an Amor Spawner, which will in turn spawn Amor Squirmers.</description>
+		<iconPath>Abilities/OviVag</iconPath>
+		<jobDef>CastAbilityOnThing</jobDef>
+		<targetRequired>False</targetRequired>
+		<canUseAoeToGetTargets>False</canUseAoeToGetTargets>
+		<category>Tentacle</category>
+		<stunTargetWhileCasting>True</stunTargetWhileCasting>
+		<showPsycastEffects>False</showPsycastEffects>
+		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<cooldownTicksRange>60</cooldownTicksRange>
+		<hostile>false</hostile>
+		<casterMustBeCapableOfViolence>false</casterMustBeCapableOfViolence>
+		<jobDef>CastAbilityOnThing</jobDef>
+		<targetRequired>False</targetRequired>
+		<stunTargetWhileCasting>True</stunTargetWhileCasting>
+		<displayGizmoWhileUndrafted>True</displayGizmoWhileUndrafted>
+		<disableGizmoWhileUndrafted>False</disableGizmoWhileUndrafted>
+		<verbProperties>
+			<verbClass>Verb_CastAbility</verbClass>
+			<range>999</range>
+			<warmupTime>2.5</warmupTime>
+			<drawAimPie>False</drawAimPie>
+			<soundCast>AcidSpray_Resolve</soundCast>
+			<requireLineOfSight>False</requireLineOfSight>
+			<targetParams>
+				<canTargetLocations>false</canTargetLocations>
+				<canTargetPawns>false</canTargetPawns>
+				<canTargetAnimals>false</canTargetAnimals>
+				<canTargetBuildings>false</canTargetBuildings>
+				<canTargetHumans>false</canTargetHumans>
+				<canTargetEntities>false</canTargetEntities>
+				<canTargetSubhumans>false</canTargetSubhumans>
+				<canTargetMechs>false</canTargetMechs>
+				<canTargetSelf>true</canTargetSelf>
+			</targetParams>
+		</verbProperties>
+		<comps>
+			<li Class="AmorTentaculum.CompProperties_ExtendedAbilityValidator">
+				<requiredResearchProjects>
+					<li>ATHostBasic</li>
+				</requiredResearchProjects>
+				<casterHasAnyOfHediffs>
+					<li>ReadyToEvolve</li>
+				</casterHasAnyOfHediffs>
+				<hideGizmo>false</hideGizmo>
+			</li>
+		</comps>
+	</AbilityDef>
+
 </Defs>

@@ -30,6 +30,10 @@
       <HintPath>..\..\..\Assembly-CSharp.dll</HintPath>
       <Private>False</Private>
     </Reference>
+    <Reference Include="EBSGFramework">
+      <HintPath>..\..\..\..\..\workshop\content\294100\3112549163\1.7\Assemblies\EBSGFramework.dll</HintPath>
+			<Private>False</Private>
+    </Reference>
     <Reference Include="UnityStubs">
       <HintPath>..\..\..\UnityStubs.dll</HintPath>
       <Private>False</Private>
