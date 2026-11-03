@@ -74,6 +74,11 @@ namespace AmorTentaculum
         public static float tentacleResourceProductionSpeedFactor = 1.0f;
 
         /// <summary>
+        /// Modifier to Tentacle Resource Production Speed
+        /// </summary>
+        public static float larvaEvolutionSpeedFactor = 1.0f;
+
+        /// <summary>
         /// Modifier to Tentacle Egg Production Speed
         /// </summary>
         public static float tentacleEggProductionSpeedFactor = 1.0f;
@@ -128,6 +133,13 @@ namespace AmorTentaculum
                 "Host Resource Production Speed Factor: {0}x".Translate(hostResourceProductionSpeedFactor.ToString("0.00")),
                 hostResourceProductionSpeedFactor, 0.25f, 4f, 0.35f,
                "The speed at which Hosts produce resources.");
+
+            listingStandard.GapLine(16f);
+
+            larvaEvolutionSpeedFactor = listingStandard.SliderLabeled(
+               "Larva Evolution Speed Factor: {0}x".Translate(larvaEvolutionSpeedFactor.ToString("0.00")),
+                larvaEvolutionSpeedFactor, 0.25f, 4f, 0.35f,
+                "The speed at which Larvae evolve.");
 
             listingStandard.GapLine(16f);
 

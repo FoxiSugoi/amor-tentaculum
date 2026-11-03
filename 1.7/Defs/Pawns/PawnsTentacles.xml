@@ -165,26 +165,6 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/Internal/Internal</texPath>
-					<drawSize>0.5</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-					<drawSize>0.5</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawns/Internal/Internal</texPath>
-					<drawSize>0.7</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-					<drawSize>0.7</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawns/Internal/Internal</texPath>
 					<drawSize>0.9</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -254,16 +234,8 @@
 			<lifeExpectancy>1</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>AnimalBaby</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
-					<def>AnimalJuvenile</def>
-					<minAge>0.05</minAge>
-				</li>
-				<li>
 					<def>AnimalAdult</def>
-					<minAge>0.12</minAge>
+					<minAge>0</minAge>
 					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
 					<soundDeath>Pawn_Cobra_Death</soundDeath>
 					<soundCall>Pawn_Cobra_Call</soundCall>
@@ -295,26 +267,6 @@
 			<li>
 				<bodyGraphicData>
 					<texPath>Things/Pawns/Larva/Larva</texPath>
-					<drawSize>0.8</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-					<drawSize>0.8</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawns/Larva/Larva</texPath>
-					<drawSize>0.9</drawSize>
-				</bodyGraphicData>
-				<dessicatedBodyGraphicData>
-					<texPath>Things/Pawn/Animal/Cobra/Dessicated_Cobra</texPath>
-					<drawSize>0.9</drawSize>
-				</dessicatedBodyGraphicData>
-			</li>
-			<li>
-				<bodyGraphicData>
-					<texPath>Things/Pawns/Larva/Larva</texPath>
 					<drawSize>1.0</drawSize>
 				</bodyGraphicData>
 				<dessicatedBodyGraphicData>
@@ -323,8 +275,10 @@
 				</dessicatedBodyGraphicData>
 			</li>
 		</lifeStages>
-		<!-- TODO: Add evolution abilities here. -->
-		<abilities />
+		<abilities>
+			<li>LarvaEvolveSquirmer</li>
+			<li>LarvaEvolveSpawner</li>
+		</abilities>
 	</PawnKindDef>
 
 	<ThingDef ParentName="AnimalThingBase">
@@ -357,6 +311,10 @@
 			<li Class="VEF.AnimalBehaviours.CompProperties_FixedGender">
 				<gender>None</gender>
 			</li>
+			<li Class="VEF.AnimalBehaviours.CompProperties_InitialHediff">
+				<hediffname>ReadyToEvolve</hediffname>
+				<hediffseverity>1</hediffseverity>
+			</li>
 		</comps>
 
 		<race>
@@ -376,16 +334,8 @@
 			<lifeExpectancy>10</lifeExpectancy>
 			<lifeStageAges>
 				<li>
-					<def>AnimalBaby</def>
-					<minAge>0</minAge>
-				</li>
-				<li>
-					<def>AnimalJuvenile</def>
-					<minAge>0.1</minAge>
-				</li>
-				<li>
 					<def>AnimalAdult</def>
-					<minAge>0.2</minAge>
+					<minAge>0</minAge>
 					<soundWounded>Pawn_Cobra_Wounded</soundWounded>
 					<soundDeath>Pawn_Cobra_Death</soundDeath>
 					<soundCall>Pawn_Cobra_Call</soundCall>
