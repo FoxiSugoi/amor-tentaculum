@@ -21,6 +21,8 @@
 | Buildings | Defensive | Paralysis Trap | NYI | NYI | |
 | Buildings | Utility | Calor | ![](./Textures/Things/Buildings/Heater/HeaterT.png) | `Textures/Things/Buildings/Heater` | Needs rename, maybe rotations? |
 | Buildings | Utility | Frigis | ![](./Textures/Things/Buildings/Heater/CoolerT.png) | `Textures/Things/Buildings/Heater` | Needs rename, maybe rotations? |
+| Buildings | Utility | Tentacle Floor | NYI | NYI | |
+| Buildings | Utility | Sphincter Door | NYI | NYI | |
 | Equipment | Weapons | Tentacle Whip | NYI | NYI | |
 | Equipment | Weapons | Resin Sword | NYI | NYI | |
 | Equipment | Armor | Bodysuit | NYI | NYI | |
