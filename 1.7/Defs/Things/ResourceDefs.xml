@@ -5,8 +5,8 @@
 		<label>soft flesh</label>
 		<description>The skin is super soft and feels like genital skin.</description>
 		<graphicData>
-			<color>(235,205,180)</color>
-			<colorTwo>(235,235,235)</colorTwo>
+			<texPath>Things/Items/SoftFlesh</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<generateCommonality>0</generateCommonality>
 		<generateAllowChance>0</generateAllowChance>
@@ -41,8 +41,7 @@
 		-->
 
 		<graphicData>
-			<!-- TODO: This is a placeholder graphic. -->
-			<texPath>Things/Items/Food/Slime</texPath>
+			<texPath>Things/Items/TentacleSlime</texPath>
 			<graphicClass>Graphic_StackCount</graphicClass>
 		</graphicData>
 		<possessionCount>50</possessionCount>

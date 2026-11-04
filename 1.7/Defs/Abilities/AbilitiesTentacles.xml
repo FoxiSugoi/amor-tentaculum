@@ -78,7 +78,7 @@
 		<defName>LarvaEvolveSquirmer</defName>
 		<label>evolve into squirmers</label>
 		<description>Evolve the Larva into a small handful of Squirmers. Inefficient, but if you need some and don't have Spawners available...</description>
-		<iconPath>Abilities/OviVag</iconPath>
+		<iconPath>Abilities/LarvalTransformation</iconPath>
 		<jobDef>CastAbilityOnThing</jobDef>
 		<targetRequired>False</targetRequired>
 		<canUseAoeToGetTargets>False</canUseAoeToGetTargets>
@@ -151,7 +151,7 @@
 		<defName>LarvaEvolveSpawner</defName>
 		<label>evolve into spawner</label>
 		<description>Evolve the Larva into an Amor Spawner, which will in turn spawn Amor Squirmers.</description>
-		<iconPath>Abilities/OviVag</iconPath>
+		<iconPath>Abilities/LarvalTransformation</iconPath>
 		<jobDef>CastAbilityOnThing</jobDef>
 		<targetRequired>False</targetRequired>
 		<canUseAoeToGetTargets>False</canUseAoeToGetTargets>

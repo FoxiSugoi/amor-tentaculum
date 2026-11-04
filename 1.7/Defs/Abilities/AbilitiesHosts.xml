@@ -109,7 +109,7 @@
 		<defName>TentacleTransfer</defName>
 		<label>Transfer tentacle</label>
 		<description>Transfer an Amor Squirmer tentacle from one Host to another.  With a sloppy kiss.\n\nWARNING: This is dangerous if the pawn runs out of stored tentacles!</description>
-		<iconPath>Abilities/MouthVore</iconPath>
+		<iconPath>Abilities/TentacleKiss</iconPath>
 		<category>Tentacle</category>
 		<cooldownTicksRange>5</cooldownTicksRange>
 		<hostile>false</hostile>
