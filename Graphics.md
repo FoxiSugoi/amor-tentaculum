@@ -17,7 +17,7 @@
 | Material | Natural | Soft Flesh | NYI | NYI | Currently using a leather recolor. Something custom would be nice. |
 | Material | Natural | Tentacle Slime | NYI | NYI | Currently using a "slime food" texture from the original mod. |
 | Drugs | Natural | Amornuum | NYI | NYI | Currently reusing beer texture. Something custom would be nice. |
-| Buildings | Defensive | Turret | ![](./Textures/Things/Buildings/Turret/TTurretBase.png) ![](./Textures/Things/Buildings/Turret/TTurretHead.png) | `Textures/Things/Buildings/Turret` | I believe a better-looking one was drafted. |
+| Buildings | Defensive | Turret | ![](./Textures/Things/Buildings/Turret/TurretBase.png) ![](./Textures/Things/Buildings/Turret/TurretHead.png) | `Textures/Things/Buildings/Turret` | Hot off the presses! |
 | Buildings | Defensive | Paralysis Trap | NYI | NYI | |
 | Buildings | Utility | Calor | ![](./Textures/Things/Buildings/Heater/HeaterT.png) | `Textures/Things/Buildings/Heater` | Needs rename, maybe rotations? |
 | Buildings | Utility | Frigis | ![](./Textures/Things/Buildings/Heater/CoolerT.png) | `Textures/Things/Buildings/Heater` | Needs rename, maybe rotations? |
